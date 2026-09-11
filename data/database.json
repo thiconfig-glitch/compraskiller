@@ -1,0 +1,1564 @@
+{
+  "trackers": [
+    {
+      "id": "trk_1789145517452_piqj3",
+      "name": "RTX 3060",
+      "query": "rtx 3060",
+      "targetPrice": 1600,
+      "minPrice": 800,
+      "maxPrice": 2500,
+      "negativeKeywords": "defeito, quebrado, ventilador apenas",
+      "municipality": "",
+      "enabled": true,
+      "createdAt": "2026-09-11T16:51:57.452Z",
+      "lastChecked": "2026-09-11T16:51:58.353Z",
+      "adsCount": 56,
+      "lowestPrice": 850,
+      "averagePrice": 1744,
+      "opportunitiesCount": 18
+    }
+  ],
+  "items": [
+    {
+      "id": "1533162111",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060 MANCER",
+      "price": 1500,
+      "priceFormatted": "R$ 1.500",
+      "oldPrice": "R$ 1.800",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-mancer-1533162111",
+      "thumb": "https://img.olx.com.br/images/40/405643320667637.webp",
+      "imagesCount": 6,
+      "city": "Esmeraldas",
+      "neighborhood": "Santa Cecília",
+      "uf": "MG",
+      "date": "2026-09-07T05:58:03.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1500,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1530528221",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060 Ti VISION OC 8GB BRANCA // R$ 1.800<br>",
+      "price": 1800,
+      "priceFormatted": "R$ 1.800",
+      "oldPrice": "R$ 2.100",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-ti-vision-oc-8gb-branca-r-1-800-br-1530528221",
+      "thumb": "https://img.olx.com.br/images/32/324665559895113.webp",
+      "imagesCount": 6,
+      "city": "Viçosa",
+      "neighborhood": "Lourdes",
+      "uf": "MG",
+      "date": "2026-08-29T14:12:20.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1800,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1534332914",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3060 12gb",
+      "price": 1300,
+      "priceFormatted": "R$ 1.300",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-12gb-1534332914",
+      "thumb": "https://img.olx.com.br/images/85/858623568394518.webp",
+      "imagesCount": 5,
+      "city": "Belo Horizonte",
+      "neighborhood": "Ventosa",
+      "uf": "MG",
+      "date": "2026-09-10T21:14:48.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1300,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1508371117",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060 TI GALAX LHR 8GB (Apenas venda)",
+      "price": 1800,
+      "priceFormatted": "R$ 1.800",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-ti-galax-lhr-8gb-apenas-venda-1508371117",
+      "thumb": "https://img.olx.com.br/images/47/475654301721512.webp",
+      "imagesCount": 4,
+      "city": "Conselheiro Lafaiete",
+      "neighborhood": "Progresso",
+      "uf": "MG",
+      "date": "2026-08-25T20:07:03.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1800,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1529103800",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060 Ti EVGA FTW3 Ultra",
+      "price": 2000,
+      "priceFormatted": "R$ 2.000",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-ti-evga-ftw3-ultra-1529103800",
+      "thumb": "https://img.olx.com.br/images/76/764687076938709.webp",
+      "imagesCount": 6,
+      "city": "Contagem",
+      "neighborhood": "Parque Belo Horizonte Industrial",
+      "uf": "MG",
+      "date": "2026-08-24T19:51:02.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2000,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "81skhjep",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-11T16:51:58.353Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1529659860",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3060 8gb oc ggdr6 gigabyte",
+      "price": 1750,
+      "priceFormatted": "R$ 1.750",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-8gb-oc-ggdr6-gigabyte-1529659860",
+      "thumb": "https://img.olx.com.br/images/50/505662671952141.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "Jardim São José",
+      "uf": "MG",
+      "date": "2026-08-26T16:31:25.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1750,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1481758084",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3060 12gb MSI",
+      "price": 1380,
+      "priceFormatted": "R$ 1.380",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-12gb-msi-1481758084",
+      "thumb": "https://img.olx.com.br/images/20/201698380068580.webp",
+      "imagesCount": 1,
+      "city": "Contagem",
+      "neighborhood": "Ressaca",
+      "uf": "MG",
+      "date": "2026-09-08T00:04:00.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1380,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1481755285",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3060 12gb - C / NOTA FISCAL",
+      "price": 1350,
+      "priceFormatted": "R$ 1.350",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-12gb-c-nota-fiscal-1481755285",
+      "thumb": "https://img.olx.com.br/images/12/122635504658220.webp",
+      "imagesCount": 1,
+      "city": "Contagem",
+      "neighborhood": "Ressaca",
+      "uf": "MG",
+      "date": "2026-09-08T00:03:46.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1350,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1438386538",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060 8gb ASUS",
+      "price": 1400,
+      "priceFormatted": "R$ 1.400",
+      "oldPrice": "R$ 1.459",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-8gb-asus-1438386538",
+      "thumb": "https://img.olx.com.br/images/77/772569565626641.webp",
+      "imagesCount": 4,
+      "city": "Belo Horizonte",
+      "neighborhood": "Floresta",
+      "uf": "MG",
+      "date": "2026-09-08T00:03:23.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1400,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1481758471",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3060 12gb",
+      "price": 1350,
+      "priceFormatted": "R$ 1.350",
+      "oldPrice": "R$ 1.400",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-12gb-1481758471",
+      "thumb": "https://img.olx.com.br/images/59/593624266605327.webp",
+      "imagesCount": 1,
+      "city": "Contagem",
+      "neighborhood": "Ressaca",
+      "uf": "MG",
+      "date": "2026-09-08T00:03:08.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1350,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "34ubgqlw",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-11T16:51:58.353Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1481758914",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3060 12gb",
+      "price": 1380,
+      "priceFormatted": "R$ 1.380",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-12gb-1481758914",
+      "thumb": "https://img.olx.com.br/images/85/851668748622286.webp",
+      "imagesCount": 1,
+      "city": "Contagem",
+      "neighborhood": "Ressaca",
+      "uf": "MG",
+      "date": "2026-09-08T00:02:49.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1380,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1481755871",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3060 12gb",
+      "price": 1350,
+      "priceFormatted": "R$ 1.350",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060-12gb-1481755871",
+      "thumb": "https://img.olx.com.br/images/88/887676028307910.webp",
+      "imagesCount": 1,
+      "city": "Contagem",
+      "neighborhood": "Ressaca",
+      "uf": "MG",
+      "date": "2026-09-07T23:59:43.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1350,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1533075655",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060 Ti Asus",
+      "price": 1790,
+      "priceFormatted": "R$ 1.790",
+      "oldPrice": "R$ 1.800",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/pecas-de-hardware/rtx-3060-ti-asus-1533075655",
+      "thumb": "https://img.olx.com.br/images/34/341644921563923.webp",
+      "imagesCount": 1,
+      "city": "Belo Horizonte",
+      "neighborhood": "Céu Azul",
+      "uf": "MG",
+      "date": "2026-09-06T19:46:22.000Z",
+      "category": "Peças de Hardware",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1790,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1526816496",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060 12 gb",
+      "price": 1800,
+      "priceFormatted": "R$ 1.800",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/pecas-de-hardware/rtx-3060-12-gb-1526816496",
+      "thumb": "https://img.olx.com.br/images/55/555639794897562.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "Santa Branca",
+      "uf": "MG",
+      "date": "2026-08-16T18:00:22.000Z",
+      "category": "Peças de Hardware",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1800,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1531746419",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "VENDE-SE RTX 3060 12 GIGAS",
+      "price": 1600,
+      "priceFormatted": "R$ 1.600",
+      "oldPrice": "R$ 1.650",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/pecas-de-hardware/vende-se-rtx-3060-12-gigas-1531746419",
+      "thumb": "https://img.olx.com.br/images/52/520601326960996.webp",
+      "imagesCount": 6,
+      "city": "Vespasiano",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-02T13:39:25.000Z",
+      "category": "Peças de Hardware",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1600,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1477252975",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de video RTX 3060 TI ZOTAC GAMING",
+      "price": 2150,
+      "priceFormatted": "R$ 2.150",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-rtx-3060-ti-zotac-gaming-1477252975",
+      "thumb": "https://img.olx.com.br/images/83/836698254634285.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "Inconfidência",
+      "uf": "MG",
+      "date": "2026-09-10T22:57:39.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2150,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1534173450",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de vídeo RTX 3060 OC 12GB Tuf gaming",
+      "price": 1800,
+      "priceFormatted": "R$ 1.800",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-rtx-3060-oc-12gb-tuf-gaming-1534173450",
+      "thumb": "https://img.olx.com.br/images/98/985623445844923.webp",
+      "imagesCount": 5,
+      "city": "Belo Horizonte",
+      "neighborhood": "Salgado Filho",
+      "uf": "MG",
+      "date": "2026-09-10T13:23:08.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1800,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1oei4d24",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-11T16:51:58.353Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1528115745",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de vídeo RTX 3060 12gb",
+      "price": 1750,
+      "priceFormatted": "R$ 1.750",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-rtx-3060-12gb-1528115745",
+      "thumb": "https://img.olx.com.br/images/39/395608793988012.webp",
+      "imagesCount": 3,
+      "city": "Belo Horizonte",
+      "neighborhood": "Boa Vista",
+      "uf": "MG",
+      "date": "2026-08-20T20:55:12.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1750,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1457598475",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de Video RTX 3060 MSI Ventus 2X 12GB COM NOTA FISCAL E CAIXA",
+      "price": 1900,
+      "priceFormatted": "R$ 1.900",
+      "oldPrice": "R$ 2.000",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-rtx-3060-msi-ventus-2x-12gb-com-nota-fiscal-e-caixa-1457598475",
+      "thumb": "https://img.olx.com.br/images/70/703594345796343.webp",
+      "imagesCount": 6,
+      "city": "Ibirité",
+      "neighborhood": "Los Angeles",
+      "uf": "MG",
+      "date": "2026-09-03T12:54:28.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1900,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1518233642",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de Vídeo RTX 3060 Ti Twin Edge Zotac NVIDIA GeForce, 8GB GDDR6, 14 Gbps, LHR, DLSS,",
+      "price": 2500,
+      "priceFormatted": "R$ 2.500",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/pecas-de-hardware/placa-de-video-rtx-3060-ti-twin-edge-zotac-nvidia-geforce-8gb-gddr6-14-gbps-lhr-dlss-1518233642",
+      "thumb": "https://img.olx.com.br/images/20/208636420956533.webp",
+      "imagesCount": 6,
+      "city": "Belo Horizonte",
+      "neighborhood": "Milionários (Barreiro)",
+      "uf": "MG",
+      "date": "2026-08-19T08:59:43.000Z",
+      "category": "Peças de Hardware",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2500,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1096313841",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de Video RTX 3060 Dual OC Palit NVIDIA GeForce, 12GB GDDR6, RGB (Novo)",
+      "price": 1999,
+      "priceFormatted": "R$ 1.999",
+      "oldPrice": "R$ 2.900",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/pecas-de-hardware/placa-de-video-rtx-3060-dual-oc-palit-nvidia-geforce-12gb-gddr6-rgb-novo-1096313841",
+      "thumb": "https://img.olx.com.br/images/52/522458648325811.webp",
+      "imagesCount": 4,
+      "city": "Belo Horizonte",
+      "neighborhood": "Lourdes",
+      "uf": "MG",
+      "date": "2026-08-19T14:06:38.000Z",
+      "category": "Peças de Hardware",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1999,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1297199066",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de Video RTX 3060 Dual OC Palit NVIDIA GeForce 12GB GDDR6, RGB (Novo Lacrado)",
+      "price": 1999,
+      "priceFormatted": "R$ 1.999",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/pecas-de-hardware/placa-de-video-rtx-3060-dual-oc-palit-nvidia-geforce-12gb-gddr6-rgb-novo-lacrado-1297199066",
+      "thumb": "https://img.olx.com.br/images/80/801488757458328.webp",
+      "imagesCount": 4,
+      "city": "Belo Horizonte",
+      "neighborhood": "Centro",
+      "uf": "MG",
+      "date": "2026-08-17T20:10:38.000Z",
+      "category": "Peças de Hardware",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1999,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1532388783",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Vendo Placa de Vídeo NVIDIA GeForce RTX 3060 8GB GDDR6, modelo 1-Click OC.",
+      "price": 1850,
+      "priceFormatted": "R$ 1.850",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/vendo-placa-de-video-nvidia-geforce-rtx-3060-8gb-gddr6-modelo-1-click-oc-1532388783",
+      "thumb": "https://img.olx.com.br/images/31/318635080321852.webp",
+      "imagesCount": 2,
+      "city": "Contagem",
+      "neighborhood": "Água Branca",
+      "uf": "MG",
+      "date": "2026-09-04T10:47:03.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1850,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1532217371",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de Vídeo INNO3D GeForce RTX 3060 Twin X2 12GB GDDR6",
+      "price": 2150,
+      "priceFormatted": "R$ 2.150",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-inno3d-geforce-rtx-3060-twin-x2-12gb-gddr6-1532217371",
+      "thumb": "https://img.olx.com.br/images/90/907692681496834.webp",
+      "imagesCount": 3,
+      "city": "Sarzedo",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-03T18:44:31.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2150,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "082otpbi",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-11T16:51:58.353Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1521859506",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de vídeo Galax NVIDIA GeForce RTX 3060, 12GB",
+      "price": 2000,
+      "priceFormatted": "R$ 2.000",
+      "oldPrice": "R$ 2.200",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-galax-nvidia-geforce-rtx-3060-12gb-1521859506",
+      "thumb": "https://img.olx.com.br/images/13/130624661246549.webp",
+      "imagesCount": 6,
+      "city": "Belo Horizonte",
+      "neighborhood": "Araguaia",
+      "uf": "MG",
+      "date": "2026-08-28T20:53:21.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2000,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1519660274",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de Vídeo EVGA GeForce RTX 3060 Ti FTW3 Ultra Gaming 8GB GDDR6",
+      "price": 1700,
+      "priceFormatted": "R$ 1.700",
+      "oldPrice": "R$ 2.100",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-evga-geforce-rtx-3060-ti-ftw3-ultra-gaming-8gb-gddr6-1519660274",
+      "thumb": "https://img.olx.com.br/images/64/648640540501232.webp",
+      "imagesCount": 6,
+      "city": "Belo Horizonte",
+      "neighborhood": "Centro",
+      "uf": "MG",
+      "date": "2026-08-20T19:14:02.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1700,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1533505071",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de vídeo Gigabyte GeForce RTX 3060 Windforce OC 12GB",
+      "price": 1750,
+      "priceFormatted": "R$ 1.750",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-gigabyte-geforce-rtx-3060-windforce-oc-12gb-1533505071",
+      "thumb": "https://img.olx.com.br/images/63/631620682497833.webp",
+      "imagesCount": 4,
+      "city": "Belo Horizonte",
+      "neighborhood": "Mineirão",
+      "uf": "MG",
+      "date": "2026-09-08T16:09:17.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1750,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1436619261",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RX 6600 Triple Fan - DESEMPENHO RTX 3060",
+      "price": 1199,
+      "priceFormatted": "R$ 1.199",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rx-6600-triple-fan-desempenho-rtx-3060-1436619261",
+      "thumb": "https://img.olx.com.br/images/57/573569321007088.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "Santa Efigênia",
+      "uf": "MG",
+      "date": "2026-09-07T23:59:21.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1199,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1519110116",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "EVGA GTX 1080 Ti 11Gigas ,troco por RTX 3060 12Gigas mais volta minha",
+      "price": 1350,
+      "priceFormatted": "R$ 1.350",
+      "oldPrice": "R$ 1.400",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/evga-gtx-1080-ti-11gigas-troco-por-rtx-3060-12gigas-mais-volta-minha-1519110116",
+      "thumb": "https://img.olx.com.br/images/74/748614903619780.webp",
+      "imagesCount": 5,
+      "city": "Contagem",
+      "neighborhood": "Parque Duval de Barros",
+      "uf": "MG",
+      "date": "2026-09-03T17:01:14.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1350,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1340277173",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Placa de Vídeo INNO3D GeForce RTX 3060 Twin X2 (NOVO LACRADO)",
+      "price": 1999,
+      "priceFormatted": "R$ 1.999",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/placa-de-video-inno3d-geforce-rtx-3060-twin-x2-novo-lacrado-1340277173",
+      "thumb": "https://img.olx.com.br/images/28/285466326161370.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "Centro",
+      "uf": "MG",
+      "date": "2026-08-17T20:06:21.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1999,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1531708520",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "MSI Stealth 15M i7 11ª Ger + RTX 3060 | Para peças/conserto (leia)",
+      "price": 1400,
+      "priceFormatted": "R$ 1.400",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/notebooks/msi-stealth-15m-i7-11-ger-rtx-3060-para-pecas-conserto-leia-1531708520",
+      "thumb": "https://img.olx.com.br/images/68/682609927845482.webp",
+      "imagesCount": 1,
+      "city": "Nova Lima",
+      "neighborhood": "Vila da Serra",
+      "uf": "MG",
+      "date": "2026-09-02T11:23:10.000Z",
+      "category": "Notebooks",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1400,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "2af8atl6",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-11T16:51:58.353Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1524944973",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Troco GTX 1650  por  RX 7600  ou  por RX 6600 ou rtx 3060 12gb com mais volta minha",
+      "price": 850,
+      "priceFormatted": "R$ 850",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/pecas-de-hardware/troco-gtx-1650-por-rx-7600-ou-por-rx-6600-ou-rtx-3060-12gb-com-mais-volta-minha-1524944973",
+      "thumb": "https://img.olx.com.br/images/58/586666670617720.webp",
+      "imagesCount": 1,
+      "city": "Belo Horizonte",
+      "neighborhood": "Pirajá",
+      "uf": "MG",
+      "date": "2026-09-09T23:37:20.000Z",
+      "category": "Peças de Hardware",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 850,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1502331832",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Troco GTX 1080 Ti 11Gigas EVGA em RTX 3060 12Gigas + volta minha, somente troca",
+      "price": 1350,
+      "priceFormatted": "R$ 1.350",
+      "oldPrice": "R$ 1.400",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/computadores-e-desktops/troco-gtx-1080-ti-11gigas-evga-em-rtx-3060-12gigas-volta-minha-somente-troca-1502331832",
+      "thumb": "https://img.olx.com.br/images/58/586674781030078.webp",
+      "imagesCount": 4,
+      "city": "Contagem",
+      "neighborhood": "Parque Duval de Barros",
+      "uf": "MG",
+      "date": "2026-09-03T17:02:12.000Z",
+      "category": "Computadores e Desktops",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1350,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1534392823",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3070 8gb Asus RGB",
+      "price": 2000,
+      "priceFormatted": "R$ 2.000",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-8gb-asus-rgb-1534392823",
+      "thumb": "https://img.olx.com.br/images/31/318620924645982.webp",
+      "imagesCount": 3,
+      "city": "Esmeraldas",
+      "neighborhood": "Condomínio Nossa Fazenda",
+      "uf": "MG",
+      "date": "2026-09-11T02:04:24.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2000,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1534559854",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 5060 8GB MSI SHADOW 2X ? SEMINOVA",
+      "price": 2300,
+      "priceFormatted": "R$ 2.300",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-5060-8gb-msi-shadow-2x-seminova-1534559854",
+      "thumb": "https://img.olx.com.br/images/14/143650926451930.webp",
+      "imagesCount": 3,
+      "city": "Coronel Fabriciano",
+      "neighborhood": "Amaro Lanari",
+      "uf": "MG",
+      "date": "2026-09-11T16:42:27.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2300,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1482862013",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 5060 Galax",
+      "price": 2500,
+      "priceFormatted": "R$ 2.500",
+      "oldPrice": "R$ 3.450",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-5060-galax-1482862013",
+      "thumb": "https://img.olx.com.br/images/89/892657744455997.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "Alto dos Pinheiros",
+      "uf": "MG",
+      "date": "2026-09-10T13:40:34.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2500,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1526140731",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 2070 Zotac AMP 8GB GDDR6 - Garantia! Somos loja! Envio pela OLX!",
+      "price": 1299,
+      "priceFormatted": "R$ 1.299",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-2070-zotac-amp-8gb-gddr6-garantia-somos-loja-envio-pela-olx-1526140731",
+      "thumb": "https://img.olx.com.br/images/20/204600073771461.webp",
+      "imagesCount": 3,
+      "city": "Betim",
+      "neighborhood": "Vila Cristina",
+      "uf": "MG",
+      "date": "2026-09-09T22:00:38.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1299,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "k4jr0mgc",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-11T16:51:58.353Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1533638067",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3070 8GB MSI",
+      "price": 2300,
+      "priceFormatted": "R$ 2.300",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-8gb-msi-1533638067",
+      "thumb": "https://img.olx.com.br/images/12/127602324954041.webp",
+      "imagesCount": 3,
+      "city": "Belo Horizonte",
+      "neighborhood": "Araguaia",
+      "uf": "MG",
+      "date": "2026-09-08T21:25:00.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2300,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1534251776",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3050 Gigabyte 6GB - R$1.200 ou Troco por Superior + Volta Minha",
+      "price": 1200,
+      "priceFormatted": "R$ 1.200",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3050-gigabyte-6gb-r-1-200-ou-troco-por-superior-volta-minha-1534251776",
+      "thumb": "https://img.olx.com.br/images/19/192605204580666.webp",
+      "imagesCount": 4,
+      "city": "Belo Horizonte",
+      "neighborhood": "São Francisco",
+      "uf": "MG",
+      "date": "2026-09-10T17:47:59.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1200,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1532862396",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3070 8GB Asus RGB  Zerada",
+      "price": 2150,
+      "priceFormatted": "R$ 2.150",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-8gb-asus-rgb-zerada-1532862396",
+      "thumb": "https://img.olx.com.br/images/82/820663564004812.webp",
+      "imagesCount": 3,
+      "city": "Betim",
+      "neighborhood": "Capelinha",
+      "uf": "MG",
+      "date": "2026-09-05T17:57:24.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2150,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1531983138",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 2060 6GB PNY",
+      "price": 1099,
+      "priceFormatted": "R$ 1.099",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-2060-6gb-pny-1531983138",
+      "thumb": "https://img.olx.com.br/images/38/387691321317723.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "São Geraldo",
+      "uf": "MG",
+      "date": "2026-09-03T01:23:39.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1099,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1531869412",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3070 ti",
+      "price": 2100,
+      "priceFormatted": "R$ 2.100",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-ti-1531869412",
+      "thumb": "https://img.olx.com.br/images/18/180611204706483.webp",
+      "imagesCount": 3,
+      "city": "Belo Horizonte",
+      "neighborhood": "Saudade",
+      "uf": "MG",
+      "date": "2026-09-02T17:56:23.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2100,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1531760796",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3070ti",
+      "price": 2300,
+      "priceFormatted": "R$ 2.300",
+      "oldPrice": "R$ 2.500",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070ti-1531760796",
+      "thumb": "https://img.olx.com.br/images/19/198669086756276.webp",
+      "imagesCount": 1,
+      "city": "Santa Luzia",
+      "neighborhood": "Maria Antonieta Mello Azevedo (São Benedito)",
+      "uf": "MG",
+      "date": "2026-09-02T14:24:14.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2300,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1521768045",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3070 8 GB Asus Dual Fan placa zerada!!! Faço Catira",
+      "price": 2199,
+      "priceFormatted": "R$ 2.199",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-8-gb-asus-dual-fan-placa-zerada-faco-catira-1521768045",
+      "thumb": "https://img.olx.com.br/images/14/149652783433046.webp",
+      "imagesCount": 2,
+      "city": "Betim",
+      "neighborhood": "Capelinha",
+      "uf": "MG",
+      "date": "2026-08-28T21:10:10.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2199,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "6brzot9m",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-11T16:51:58.353Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1526125017",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3070 Aorus",
+      "price": 2100,
+      "priceFormatted": "R$ 2.100",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-aorus-1526125017",
+      "thumb": "https://img.olx.com.br/images/60/605601199543987.webp",
+      "imagesCount": 6,
+      "city": "Belo Horizonte",
+      "neighborhood": "Saudade",
+      "uf": "MG",
+      "date": "2026-08-13T19:45:14.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2100,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1533628600",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 2060 gigabyte",
+      "price": 1100,
+      "priceFormatted": "R$ 1.100",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-2060-gigabyte-1533628600",
+      "thumb": "https://img.olx.com.br/images/50/501656682315436.webp",
+      "imagesCount": 3,
+      "city": "Belo Horizonte",
+      "neighborhood": "Barroca",
+      "uf": "MG",
+      "date": "2026-09-08T20:41:05.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": true,
+      "priceHistory": [
+        {
+          "price": 1100,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1533217716",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3070 excelente  para games da nova geração",
+      "price": 2000,
+      "priceFormatted": "R$ 2.000",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-excelente-para-games-da-nova-geracao-1533217716",
+      "thumb": "https://img.olx.com.br/images/98/983628081329364.webp",
+      "imagesCount": 5,
+      "city": "Esmeraldas",
+      "neighborhood": "Floresta Encantada",
+      "uf": "MG",
+      "date": "2026-09-07T13:43:10.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 2000,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1533121649",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "RTX 3060Ti 8gb",
+      "price": 1750,
+      "priceFormatted": "R$ 1.750",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3060ti-8gb-1533121649",
+      "thumb": "https://img.olx.com.br/images/64/642694321251607.webp",
+      "imagesCount": 6,
+      "city": "Contagem",
+      "neighborhood": "Colonial",
+      "uf": "MG",
+      "date": "2026-09-07T01:34:23.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1750,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    },
+    {
+      "id": "1532319767",
+      "trackerId": "trk_1789145517452_piqj3",
+      "trackerName": "RTX 3060",
+      "title": "Rtx 3070 gigabyte",
+      "price": 1800,
+      "priceFormatted": "R$ 1.800",
+      "oldPrice": "R$ 1.900",
+      "hasPriceDrop": true,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/informatica/placas-de-video/rtx-3070-gigabyte-1532319767",
+      "thumb": "https://img.olx.com.br/images/44/445635209700382.webp",
+      "imagesCount": 2,
+      "city": "Belo Horizonte",
+      "neighborhood": "São Tomáz",
+      "uf": "MG",
+      "date": "2026-09-04T01:46:05.000Z",
+      "category": "Placas de Vídeo",
+      "firstSeen": "2026-09-11T16:51:58.353Z",
+      "lastSeen": "2026-09-11T16:51:58.353Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": [
+        {
+          "price": 1800,
+          "date": "2026-09-11T16:51:58.353Z"
+        }
+      ]
+    }
+  ],
+  "favorites": [
+    "1481758471"
+  ],
+  "settings": {
+    "checkIntervalMinutes": 30,
+    "autoCheckEnabled": true,
+    "notifyOpportunities": true
+  }
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Radar OLX BH — Rastreador de Produtos e Preços</title>
+  
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0b0f19">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Radar OLX">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="icon" type="image/svg+xml" href="/icons/radar-icon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Header Principal -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <div class="radar-ping-icon">
+          <span class="ping-ring"></span>
+          <span class="ping-dot"></span>
+        </div>
+        <div>
+          <div class="brand-title-row">
+            <h1 class="brand-title">RADAR OLX</h1>
+            <span class="brand-badge">BH & Região</span>
+          </div>
+          <span class="brand-subtitle">Rastreador de Ofertas e Preços</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Botão de Instalar PWA (se suportado) -->
+        <button type="button" class="btn-pwa-install" id="btn-install-pwa" style="display: none;" title="Instalar aplicativo no celular">
+          <span>📲</span> Instalar App
+        </button>
+
+        <!-- Botão de Varredura Geral -->
+        <button type="button" class="btn-header-scan" id="btn-check-all" title="Verificar todos os produtos agora">
+          <span class="scan-icon">⚡</span>
+          <span class="scan-label">Verificar Tudo</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Barra de Métricas Rápidas -->
+    <div class="quick-stats-bar" id="quick-stats-bar">
+      <div class="stat-pill" data-filter="all">
+        <span class="stat-num" id="stat-total-trackers">0</span>
+        <span class="stat-label">Rastreadores</span>
+      </div>
+      <div class="stat-pill stat-pill-opportunity" data-filter="opportunities">
+        <span class="stat-num" id="stat-opportunities">0</span>
+        <span class="stat-label">🔥 Oportunidades</span>
+      </div>
+      <div class="stat-pill stat-pill-drops" data-filter="drops">
+        <span class="stat-num" id="stat-price-drops">0</span>
+        <span class="stat-label">📉 Baixou Preço</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal Dinâmico -->
+  <main class="app-main">
+    
+    <!-- ========================================== -->
+    <!-- ABA 1: RADAR / FEED DE OPORTUNIDADES       -->
+    <!-- ========================================== -->
+    <section class="view-panel active" id="view-feed">
+      <!-- Filtros do Feed -->
+      <div class="feed-filter-bar">
+        <div class="feed-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="feed-search-input" placeholder="Filtrar anúncios por título ou bairro..." autocomplete="off">
+          <button type="button" class="btn-clear-search" id="btn-clear-feed-search" style="display: none;">✕</button>
+        </div>
+
+        <div class="feed-controls-row">
+          <!-- Chips de Filtro -->
+          <div class="filter-chips" id="filter-chips">
+            <button type="button" class="chip-btn active" data-filter="all">Todos</button>
+            <button type="button" class="chip-btn chip-opportunity" data-filter="opportunities">🔥 Oportunidades</button>
+            <button type="button" class="chip-btn chip-drops" data-filter="drops">📉 Baixou Preço</button>
+            <button type="button" class="chip-btn chip-new" data-filter="new">✨ Novos</button>
+          </div>
+
+          <!-- Ordenação -->
+          <select class="select-sort" id="feed-sort-select">
+            <option value="opportunity">Melhores Ofertas</option>
+            <option value="price-asc">Menor Preço</option>
+            <option value="recent">Mais Recentes</option>
+            <option value="price-desc">Maior Preço</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Feed Cards Container -->
+      <div class="feed-container" id="feed-container">
+        <!-- Inserido dinamicamente via app.js -->
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Carregando radar de ofertas de Belo Horizonte...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- ABA 2: MEUS RASTREADORES                   -->
+    <!-- ========================================== -->
+    <section class="view-panel" id="view-trackers">
+      <div class="view-header">
+        <div>
+          <h2 class="view-title">Produtos Rastreados</h2>
+          <p class="view-subtitle">Monitoramento contínuo com alerta de preço alvo em BH</p>
+        </div>
+        <button type="button" class="btn-primary-action" id="btn-open-new-tracker">
+          <span>+</span> Novo Rastreador
+        </button>
+      </div>
+
+      <div class="trackers-grid" id="trackers-grid">
+        <!-- Inserido dinamicamente via app.js -->
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- ABA 3: BUSCA RÁPIDA INSTANTÂNEA            -->
+    <!-- ========================================== -->
+    <section class="view-panel" id="view-search">
+      <div class="view-header">
+        <div>
+          <h2 class="view-title">Busca Rápida na OLX BH</h2>
+          <p class="view-subtitle">Pesquise qualquer produto agora ou transforme em rastreador</p>
+        </div>
+      </div>
+
+      <form class="quick-search-form" id="quick-search-form">
+        <div class="search-input-group">
+          <input type="text" id="live-search-query" placeholder="O que você está procurando? (ex: iPhone 14, PS5, Placa de Vídeo)" required>
+          <button type="submit" class="btn-search-submit" id="btn-live-search">
+            <span>Buscar</span>
+          </button>
+        </div>
+
+        <details class="search-advanced-details">
+          <summary>Filtros Avançados (Preço e Palavras a Ignorar)</summary>
+          <div class="advanced-grid">
+            <div class="field-col">
+              <label>Preço Mínimo (R$)</label>
+              <input type="number" id="live-search-min-price" placeholder="Ex: 500">
+            </div>
+            <div class="field-col">
+              <label>Preço Máximo (R$)</label>
+              <input type="number" id="live-search-max-price" placeholder="Ex: 3000">
+            </div>
+            <div class="field-col full-width">
+              <label>Palavras para Excluir (separadas por vírgula)</label>
+              <input type="text" id="live-search-negatives" placeholder="Ex: defeito, quebrado, bloqueado, peças">
+            </div>
+          </div>
+        </details>
+      </form>
+
+      <div class="search-results-summary" id="search-results-summary" style="display: none;">
+        <span id="search-summary-text">Resultados da busca:</span>
+        <button type="button" class="btn-convert-to-tracker" id="btn-convert-search-tracker">
+          <span>🔔</span> Rastrear esta busca
+        </button>
+      </div>
+
+      <div class="search-results-container" id="search-results-container">
+        <div class="empty-state">
+          <div class="empty-icon">🔍</div>
+          <h3>Faça uma busca instantânea</h3>
+          <p>Digite o nome do produto acima para consultar em tempo real todos os anúncios em Belo Horizonte e região.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- ABA 4: FAVORITOS                           -->
+    <!-- ========================================== -->
+    <section class="view-panel" id="view-favorites">
+      <div class="view-header">
+        <div>
+          <h2 class="view-title">Anúncios Salvos</h2>
+          <p class="view-subtitle">Acompanhe seus anúncios favoritos para negociar</p>
+        </div>
+      </div>
+
+      <div class="favorites-container" id="favorites-container">
+        <!-- Inserido dinamicamente via app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================== -->
+  <!-- MODAL DE CADASTRO / EDIÇÃO DE RASTREADOR   -->
+  <!-- ========================================== -->
+  <div class="modal-overlay" id="tracker-modal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">Novo Rastreador de Oferta</h3>
+        <button type="button" class="btn-close-modal" id="btn-close-modal">✕</button>
+      </div>
+
+      <form id="tracker-form">
+        <input type="hidden" id="modal-tracker-id">
+
+        <div class="form-group">
+          <label for="tracker-name-input">Nome Amigável *</label>
+          <input type="text" id="tracker-name-input" placeholder="Ex: iPhone 13 128GB" required>
+          <span class="form-hint">Como você quer identificar este produto no painel.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="tracker-query-input">Termo Exato de Busca na OLX *</label>
+          <input type="text" id="tracker-query-input" placeholder="Ex: iphone 13 128gb" required>
+          <span class="form-hint">O texto que será pesquisado na OLX de Belo Horizonte.</span>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="tracker-target-price">Preço Alvo / Meta (R$)</label>
+            <input type="number" id="tracker-target-price" placeholder="Ex: 2300">
+            <span class="form-hint">Avisa com destaque quando o valor for menor ou igual.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="tracker-max-price">Preço Máximo (R$)</label>
+            <input type="number" id="tracker-max-price" placeholder="Ex: 2800">
+            <span class="form-hint">Ignora anúncios mais caros.</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="tracker-min-price">Preço Mínimo (R$)</label>
+            <input type="number" id="tracker-min-price" placeholder="Ex: 1000">
+            <span class="form-hint">Evita acessórios, capinhas e golpes.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="tracker-municipality">Município Específico</label>
+            <input type="text" id="tracker-municipality" placeholder="Ex: Belo Horizonte, Contagem, Betim">
+            <span class="form-hint">Deixe em branco para toda a Grande BH.</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="tracker-negatives">Palavras para Excluir</label>
+          <input type="text" id="tracker-negatives" placeholder="Ex: defeito, quebrado, bloqueado, icloud, peças, troca">
+          <span class="form-hint">Filtra anúncios indesejados automaticamente (separar por vírgula).</span>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary" id="btn-cancel-modal">Cancelar</button>
+          <button type="submit" class="btn-primary" id="btn-save-tracker">Salvar e Rastrear</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- BARRA DE NAVEGAÇÃO INFERIOR (PWA MOBILE)   -->
+  <!-- ========================================== -->
+  <nav class="bottom-nav" id="bottom-nav">
+    <button type="button" class="nav-item active" data-tab="view-feed">
+      <span class="nav-icon">📡</span>
+      <span class="nav-label">Radar</span>
+      <span class="nav-badge" id="badge-radar" style="display: none;">0</span>
+    </button>
+    <button type="button" class="nav-item" data-tab="view-trackers">
+      <span class="nav-icon">🎯</span>
+      <span class="nav-label">Rastreadores</span>
+      <span class="nav-badge" id="badge-trackers" style="display: none;">0</span>
+    </button>
+    <button type="button" class="nav-item" data-tab="view-search">
+      <span class="nav-icon">🔍</span>
+      <span class="nav-label">Busca Rápida</span>
+    </button>
+    <button type="button" class="nav-item" data-tab="view-favorites">
+      <span class="nav-icon">⭐</span>
+      <span class="nav-label">Favoritos</span>
+      <span class="nav-badge" id="badge-favorites" style="display: none;">0</span>
+    </button>
+  </nav>
+
+  <!-- Toast de Notificação -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
