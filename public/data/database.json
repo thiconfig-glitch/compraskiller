@@ -11,10 +11,10 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:28:37.644Z",
-      "adsCount": 0,
-      "lowestPrice": null,
-      "averagePrice": null,
+      "lastChecked": "2026-09-13T11:33:29.414Z",
+      "adsCount": 16,
+      "lowestPrice": 3000,
+      "averagePrice": 3716,
       "opportunitiesCount": 0
     },
     {
@@ -28,10 +28,10 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:28:39.155Z",
-      "adsCount": 0,
-      "lowestPrice": null,
-      "averagePrice": null,
+      "lastChecked": "2026-09-13T11:33:33.082Z",
+      "adsCount": 43,
+      "lowestPrice": 3200,
+      "averagePrice": 4718,
       "opportunitiesCount": 0
     },
     {
@@ -45,11 +45,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:28:40.665Z",
-      "adsCount": 0,
-      "lowestPrice": null,
-      "averagePrice": null,
-      "opportunitiesCount": 0
+      "lastChecked": "2026-09-13T11:33:36.655Z",
+      "adsCount": 57,
+      "lowestPrice": 2990,
+      "averagePrice": 5178,
+      "opportunitiesCount": 5
     },
     {
       "id": "trk_1789265801155_zpx6s",
@@ -62,11 +62,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:28:42.175Z",
-      "adsCount": 0,
-      "lowestPrice": null,
-      "averagePrice": null,
-      "opportunitiesCount": 0
+      "lastChecked": "2026-09-13T11:33:40.037Z",
+      "adsCount": 56,
+      "lowestPrice": 2990,
+      "averagePrice": 4788,
+      "opportunitiesCount": 4
     },
     {
       "id": "trk_1789265801156_fpx66",
@@ -79,7 +79,7 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T11:28:43.685Z",
+      "lastChecked": "2026-09-13T11:33:42.194Z",
       "adsCount": 0,
       "lowestPrice": null,
       "averagePrice": null,
@@ -96,10 +96,10 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T11:28:45.195Z",
-      "adsCount": 0,
-      "lowestPrice": null,
-      "averagePrice": null,
+      "lastChecked": "2026-09-13T11:33:45.774Z",
+      "adsCount": 50,
+      "lowestPrice": 3200,
+      "averagePrice": 5957,
       "opportunitiesCount": 0
     }
   ],
@@ -122,7 +122,7 @@
       "date": "2026-09-11T02:20:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -130,7 +130,9 @@
           "price": 4199,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533491400",
@@ -150,7 +152,7 @@
       "date": "2026-09-12T21:42:48.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -158,7 +160,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534619534",
@@ -178,7 +182,7 @@
       "date": "2026-09-11T19:15:29.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -186,7 +190,9 @@
           "price": 4190,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1489968539",
@@ -206,7 +212,7 @@
       "date": "2026-09-10T13:59:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -214,7 +220,9 @@
           "price": 4200,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534839892",
@@ -234,7 +242,7 @@
       "date": "2026-09-12T15:28:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -242,7 +250,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "64f76euu",
@@ -313,7 +323,7 @@
       "date": "2026-08-14T20:24:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -321,7 +331,9 @@
           "price": 3200,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1515909137",
@@ -369,7 +381,7 @@
       "date": "2026-08-24T12:03:50.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -377,7 +389,9 @@
           "price": 3300,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "8yx7yveq",
@@ -443,7 +457,7 @@
       "date": "2026-09-12T05:08:23.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -451,7 +465,9 @@
           "price": 4200,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534963341",
@@ -471,7 +487,7 @@
       "date": "2026-09-13T00:48:22.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -479,7 +495,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1531555450",
@@ -499,7 +517,7 @@
       "date": "2026-09-01T21:08:16.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -507,7 +525,9 @@
           "price": 3300,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533248125",
@@ -527,7 +547,7 @@
       "date": "2026-09-07T16:05:18.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -535,7 +555,9 @@
           "price": 3000,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "jafvcqrt",
@@ -578,7 +600,7 @@
       "date": "2026-09-10T12:46:46.000Z",
       "category": "Peças de Hardware",
       "firstSeen": "2026-09-13T02:16:42.889Z",
-      "lastSeen": "2026-09-13T11:27:50.099Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -586,7 +608,9 @@
           "price": 3000,
           "date": "2026-09-13T02:16:42.889Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "22f4gp5q",
@@ -629,7 +653,7 @@
       "date": "2026-08-17T00:56:15.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -637,7 +661,9 @@
           "price": 4999,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532107441",
@@ -657,7 +683,7 @@
       "date": "2026-09-03T14:58:59.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -665,7 +691,9 @@
           "price": 4987,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1530633431",
@@ -685,7 +713,7 @@
       "date": "2026-08-29T17:59:44.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -693,7 +721,9 @@
           "price": 5000,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1414951937",
@@ -741,7 +771,7 @@
       "date": "2026-08-12T13:56:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -749,7 +779,9 @@
           "price": 5300,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "nxg0mtyr",
@@ -792,7 +824,7 @@
       "date": "2026-09-11T11:12:43.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -800,7 +832,9 @@
           "price": 4900,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533066990",
@@ -820,7 +854,7 @@
       "date": "2026-09-06T18:55:34.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -828,7 +862,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534395088",
@@ -848,7 +884,7 @@
       "date": "2026-09-11T02:20:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -856,7 +892,9 @@
           "price": 4199,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533491400",
@@ -876,7 +914,7 @@
       "date": "2026-09-12T21:42:48.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -884,7 +922,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531584727",
@@ -904,7 +944,7 @@
       "date": "2026-09-12T15:53:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -912,7 +952,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "migp2xmj",
@@ -955,7 +997,7 @@
       "date": "2026-09-10T17:22:49.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -963,7 +1005,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534247532",
@@ -983,7 +1027,7 @@
       "date": "2026-09-10T17:30:15.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -991,7 +1035,9 @@
           "price": 5250,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534930078",
@@ -1011,7 +1057,7 @@
       "date": "2026-09-12T21:22:51.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1019,7 +1065,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534813786",
@@ -1039,7 +1087,7 @@
       "date": "2026-09-12T13:38:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1047,7 +1095,9 @@
           "price": 4800,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1526584974",
@@ -1067,7 +1117,7 @@
       "date": "2026-08-19T14:21:13.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1075,7 +1125,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "vcpqn2qz",
@@ -1118,7 +1170,7 @@
       "date": "2026-09-11T19:15:29.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1126,7 +1178,9 @@
           "price": 4190,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534563506",
@@ -1146,7 +1200,7 @@
       "date": "2026-09-11T16:57:46.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1154,7 +1208,9 @@
           "price": 5190,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1497900194",
@@ -1174,7 +1230,7 @@
       "date": "2026-09-12T10:12:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1182,7 +1238,9 @@
           "price": 4700,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1489968539",
@@ -1202,7 +1260,7 @@
       "date": "2026-09-10T13:59:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1210,7 +1268,9 @@
           "price": 4200,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534839892",
@@ -1230,7 +1290,7 @@
       "date": "2026-09-12T15:28:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1238,7 +1298,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "86w7pjvm",
@@ -1281,7 +1343,7 @@
       "date": "2026-09-12T14:47:36.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1289,7 +1351,9 @@
           "price": 4300,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533865331",
@@ -1309,7 +1373,7 @@
       "date": "2026-09-09T16:50:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1317,7 +1381,9 @@
           "price": 4998,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1524524411",
@@ -1337,7 +1403,7 @@
       "date": "2026-09-07T11:20:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1345,7 +1411,9 @@
           "price": 5390,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532629716",
@@ -1365,7 +1433,7 @@
       "date": "2026-09-04T23:54:25.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1373,7 +1441,9 @@
           "price": 4499,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "vjxu8mfo",
@@ -1416,7 +1486,7 @@
       "date": "2026-08-16T03:28:34.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1424,7 +1494,9 @@
           "price": 5150,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1525580273",
@@ -1472,7 +1544,7 @@
       "date": "2026-09-09T14:11:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1480,7 +1552,9 @@
           "price": 4300,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532953080",
@@ -1500,7 +1574,7 @@
       "date": "2026-09-06T06:01:35.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1508,7 +1582,9 @@
           "price": 5000,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "43ea7jrw",
@@ -1551,7 +1627,7 @@
       "date": "2026-09-02T18:01:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1559,7 +1635,9 @@
           "price": 4800,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1529631724",
@@ -1579,7 +1657,7 @@
       "date": "2026-08-26T15:02:43.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1587,7 +1665,9 @@
           "price": 4799,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceito Troca e Car"
     },
     {
       "id": "1422537635",
@@ -1607,7 +1687,7 @@
       "date": "2026-08-21T15:24:44.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1615,7 +1695,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1422577690",
@@ -1635,7 +1717,7 @@
       "date": "2026-08-20T15:50:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1643,7 +1725,9 @@
           "price": 4900,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1467473358",
@@ -1663,7 +1747,7 @@
       "date": "2026-08-19T20:35:02.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1671,7 +1755,9 @@
           "price": 4300,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1527293120",
@@ -1691,7 +1777,7 @@
       "date": "2026-08-18T12:05:11.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1699,7 +1785,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "lunqynid",
@@ -1742,7 +1830,7 @@
       "date": "2026-08-14T20:24:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1750,7 +1838,9 @@
           "price": 3200,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1446651623",
@@ -1770,7 +1860,7 @@
       "date": "2026-08-14T18:16:21.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1778,7 +1868,9 @@
           "price": 5200,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1429539313",
@@ -1798,7 +1890,7 @@
       "date": "2026-08-14T12:49:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:46.451Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1806,7 +1898,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:46.451Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1526220176",
@@ -1854,7 +1948,7 @@
       "date": "2026-09-12T18:38:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1862,7 +1956,9 @@
           "price": 5999,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1533376487",
@@ -1882,7 +1978,7 @@
       "date": "2026-09-07T23:04:17.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1890,7 +1986,9 @@
           "price": 5999,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1511481738",
@@ -1910,7 +2008,7 @@
       "date": "2026-08-30T22:49:28.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1918,7 +2016,9 @@
           "price": 5900,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533823700",
@@ -1938,7 +2038,7 @@
       "date": "2026-09-09T14:11:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1946,7 +2046,9 @@
           "price": 4300,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1483727451",
@@ -1966,7 +2068,7 @@
       "date": "2026-09-04T09:35:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -1974,7 +2076,9 @@
           "price": 6999,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "lmkmhj0l",
@@ -2017,7 +2121,7 @@
       "date": "2026-08-16T18:23:13.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2025,7 +2129,9 @@
           "price": 7500,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1529373744",
@@ -2045,7 +2151,7 @@
       "date": "2026-08-25T17:30:12.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2053,7 +2159,9 @@
           "price": 6700,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1533066990",
@@ -2073,7 +2181,7 @@
       "date": "2026-09-06T18:55:34.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2081,7 +2189,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1526909148",
@@ -2101,7 +2211,7 @@
       "date": "2026-08-17T00:56:15.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2109,7 +2219,9 @@
           "price": 4999,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534395088",
@@ -2129,7 +2241,7 @@
       "date": "2026-09-11T02:20:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2137,7 +2249,9 @@
           "price": 4199,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "z23pg5b1",
@@ -2180,7 +2294,7 @@
       "date": "2026-09-12T21:42:48.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2188,7 +2302,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531584727",
@@ -2208,7 +2324,7 @@
       "date": "2026-09-12T15:53:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2216,7 +2332,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534245012",
@@ -2236,7 +2354,7 @@
       "date": "2026-09-10T17:22:49.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2244,7 +2362,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534247532",
@@ -2264,7 +2384,7 @@
       "date": "2026-09-10T17:30:15.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2272,7 +2392,9 @@
           "price": 5250,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534257823",
@@ -2292,7 +2414,7 @@
       "date": "2026-09-10T18:08:25.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2300,7 +2422,9 @@
           "price": 4750,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534930078",
@@ -2320,7 +2444,7 @@
       "date": "2026-09-12T21:22:51.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2328,7 +2452,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534813786",
@@ -2348,7 +2474,7 @@
       "date": "2026-09-12T13:38:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2356,7 +2482,9 @@
           "price": 4800,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "9k0k321v",
@@ -2399,7 +2527,7 @@
       "date": "2026-09-05T13:46:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2407,7 +2535,9 @@
           "price": 6100,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1522622338",
@@ -2427,7 +2557,7 @@
       "date": "2026-08-30T11:44:35.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2435,7 +2565,9 @@
           "price": 6500,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1522128516",
@@ -2455,7 +2587,7 @@
       "date": "2026-08-29T21:43:54.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2463,7 +2595,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1530656737",
@@ -2483,7 +2617,7 @@
       "date": "2026-08-29T19:58:26.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2491,7 +2625,9 @@
           "price": 6000,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1529776547",
@@ -2511,7 +2647,7 @@
       "date": "2026-08-26T22:29:27.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2519,7 +2655,9 @@
           "price": 7399,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1526584974",
@@ -2539,7 +2677,7 @@
       "date": "2026-08-19T14:21:13.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2547,7 +2685,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1517586904",
@@ -2567,7 +2707,7 @@
       "date": "2026-08-14T22:34:13.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2575,7 +2715,9 @@
           "price": 6999,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "vo6ob9ir",
@@ -2618,7 +2760,7 @@
       "date": "2026-09-11T19:28:56.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2626,7 +2768,9 @@
           "price": 6190,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534619534",
@@ -2646,7 +2790,7 @@
       "date": "2026-09-11T19:15:29.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2654,7 +2798,9 @@
           "price": 4190,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534563506",
@@ -2674,7 +2820,7 @@
       "date": "2026-09-11T16:57:46.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2682,7 +2828,9 @@
           "price": 5190,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1497900194",
@@ -2702,7 +2850,7 @@
       "date": "2026-09-12T10:12:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2710,7 +2858,9 @@
           "price": 4700,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1489968539",
@@ -2730,7 +2880,7 @@
       "date": "2026-09-10T13:59:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2738,7 +2888,9 @@
           "price": 4200,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534839892",
@@ -2758,7 +2910,7 @@
       "date": "2026-09-12T15:28:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2766,7 +2918,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1370142328",
@@ -2786,7 +2940,7 @@
       "date": "2026-09-05T10:34:28.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2794,7 +2948,9 @@
           "price": 3999,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "uxts0fdv",
@@ -2837,7 +2993,7 @@
       "date": "2026-08-18T15:08:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2845,7 +3001,9 @@
           "price": 7000,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1428546312",
@@ -2865,7 +3023,7 @@
       "date": "2026-09-12T14:50:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2873,7 +3031,9 @@
           "price": 5099,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1431525307",
@@ -2893,7 +3053,7 @@
       "date": "2026-09-12T14:48:56.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2901,7 +3061,9 @@
           "price": 3999,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1456646948",
@@ -2921,7 +3083,7 @@
       "date": "2026-09-12T14:47:36.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2929,7 +3091,9 @@
           "price": 4300,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1495240574",
@@ -2949,7 +3113,7 @@
       "date": "2026-09-10T12:19:40.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2957,7 +3121,9 @@
           "price": 7150,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533865331",
@@ -2977,7 +3143,7 @@
       "date": "2026-09-09T16:50:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -2985,7 +3151,9 @@
           "price": 4998,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534387045",
@@ -3005,7 +3173,7 @@
       "date": "2026-09-11T01:29:51.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3013,7 +3181,9 @@
           "price": 6800,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "oib3lz0j",
@@ -3056,7 +3226,7 @@
       "date": "2026-09-08T14:58:02.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
@@ -3064,7 +3234,9 @@
           "price": 3200,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533480237",
@@ -3084,7 +3256,7 @@
       "date": "2026-09-08T14:39:00.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3092,7 +3264,9 @@
           "price": 6498,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533480206",
@@ -3112,7 +3286,7 @@
       "date": "2026-09-08T14:38:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3120,7 +3294,9 @@
           "price": 6499,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1524524411",
@@ -3140,7 +3316,7 @@
       "date": "2026-09-07T11:20:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3148,7 +3324,9 @@
           "price": 5390,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532629716",
@@ -3168,7 +3346,7 @@
       "date": "2026-09-04T23:54:25.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3176,7 +3354,9 @@
           "price": 4499,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1532107441",
@@ -3196,7 +3376,7 @@
       "date": "2026-09-03T14:58:59.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3204,7 +3384,9 @@
           "price": 4987,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1485032596",
@@ -3224,7 +3406,7 @@
       "date": "2026-08-25T03:34:57.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3232,7 +3414,9 @@
           "price": 6000,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "TROCO POR IPHONE"
     },
     {
       "id": "a4bms7ct",
@@ -3275,7 +3459,7 @@
       "date": "2026-08-16T03:28:34.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:50.113Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3283,7 +3467,9 @@
           "price": 5150,
           "date": "2026-09-13T02:16:50.113Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1526062964",
@@ -3415,7 +3601,7 @@
       "date": "2026-08-19T14:21:13.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3423,7 +3609,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1533865331",
@@ -3443,7 +3631,7 @@
       "date": "2026-09-09T16:50:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3451,7 +3639,9 @@
           "price": 4998,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1524524411",
@@ -3471,7 +3661,7 @@
       "date": "2026-09-07T11:20:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3479,7 +3669,9 @@
           "price": 5390,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1526728496",
@@ -3499,7 +3691,7 @@
       "date": "2026-08-16T03:28:34.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3507,7 +3699,9 @@
           "price": 5150,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532953080",
@@ -3527,7 +3721,7 @@
       "date": "2026-09-06T06:01:35.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3535,7 +3729,9 @@
           "price": 5000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "23mmq944",
@@ -3578,7 +3774,7 @@
       "date": "2026-08-18T21:29:02.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3586,7 +3782,9 @@
           "price": 5999,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533257700",
@@ -3606,7 +3804,7 @@
       "date": "2026-09-07T16:55:00.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3614,7 +3812,9 @@
           "price": 5250,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534388910",
@@ -3634,7 +3834,7 @@
       "date": "2026-09-11T01:41:00.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3642,7 +3842,9 @@
           "price": 5800,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531924465",
@@ -3662,7 +3864,7 @@
       "date": "2026-09-02T20:49:29.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3670,7 +3872,9 @@
           "price": 5000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534871079",
@@ -3690,7 +3894,7 @@
       "date": "2026-09-12T18:38:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3698,7 +3902,9 @@
           "price": 5999,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "06kwh4ba",
@@ -3741,7 +3947,7 @@
       "date": "2026-09-07T23:04:17.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3749,7 +3955,9 @@
           "price": 5999,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1533066990",
@@ -3769,7 +3977,7 @@
       "date": "2026-09-06T18:55:34.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3777,7 +3985,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1526909148",
@@ -3797,7 +4007,7 @@
       "date": "2026-08-17T00:56:15.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3805,7 +4015,9 @@
           "price": 4999,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534395088",
@@ -3825,7 +4037,7 @@
       "date": "2026-09-11T02:20:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3833,7 +4045,9 @@
           "price": 4199,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533491400",
@@ -3853,7 +4067,7 @@
       "date": "2026-09-12T21:42:48.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3861,7 +4075,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531584727",
@@ -3881,7 +4097,7 @@
       "date": "2026-09-12T15:53:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3889,7 +4105,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534245012",
@@ -3909,7 +4127,7 @@
       "date": "2026-09-10T17:22:49.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3917,7 +4135,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "zesfzkat",
@@ -3960,7 +4180,7 @@
       "date": "2026-09-10T17:30:15.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3968,7 +4188,9 @@
           "price": 5250,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534257823",
@@ -3988,7 +4210,7 @@
       "date": "2026-09-10T18:08:25.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -3996,7 +4218,9 @@
           "price": 4750,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534930078",
@@ -4016,7 +4240,7 @@
       "date": "2026-09-12T21:22:51.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4024,7 +4248,9 @@
           "price": 4500,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534813786",
@@ -4044,7 +4270,7 @@
       "date": "2026-09-12T13:38:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4052,7 +4278,9 @@
           "price": 4800,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1522128516",
@@ -4072,7 +4300,7 @@
       "date": "2026-08-29T21:43:54.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4080,7 +4308,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1530656737",
@@ -4100,7 +4330,7 @@
       "date": "2026-08-29T19:58:26.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4108,7 +4338,9 @@
           "price": 6000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534619534",
@@ -4128,7 +4360,7 @@
       "date": "2026-09-11T19:15:29.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4136,7 +4368,9 @@
           "price": 4190,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "5bfo78fd",
@@ -4179,7 +4413,7 @@
       "date": "2026-09-11T16:57:46.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4187,7 +4421,9 @@
           "price": 5190,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1497900194",
@@ -4207,7 +4443,7 @@
       "date": "2026-09-12T10:12:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4215,7 +4451,9 @@
           "price": 4700,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1489968539",
@@ -4235,7 +4473,7 @@
       "date": "2026-09-10T13:59:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4243,7 +4481,9 @@
           "price": 4200,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534839892",
@@ -4263,7 +4503,7 @@
       "date": "2026-09-12T15:28:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4271,7 +4511,9 @@
           "price": 4000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1370142328",
@@ -4291,7 +4533,7 @@
       "date": "2026-09-05T10:34:28.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4299,7 +4541,9 @@
           "price": 3999,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1428546312",
@@ -4319,7 +4563,7 @@
       "date": "2026-09-12T14:50:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4327,7 +4571,9 @@
           "price": 5099,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1431525307",
@@ -4347,7 +4593,7 @@
       "date": "2026-09-12T14:48:56.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4355,7 +4601,9 @@
           "price": 3999,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "pjrqc6qn",
@@ -4398,7 +4646,7 @@
       "date": "2026-09-12T14:47:36.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4406,7 +4654,9 @@
           "price": 4300,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533486958",
@@ -4426,7 +4676,7 @@
       "date": "2026-09-08T14:58:02.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4434,7 +4684,9 @@
           "price": 3200,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533223865",
@@ -4454,7 +4706,7 @@
       "date": "2026-09-07T14:15:10.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
@@ -4462,7 +4714,9 @@
           "price": 2990,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532629716",
@@ -4482,7 +4736,7 @@
       "date": "2026-09-04T23:54:25.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4490,7 +4744,9 @@
           "price": 4499,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1532107441",
@@ -4510,7 +4766,7 @@
       "date": "2026-09-03T14:58:59.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4518,7 +4774,9 @@
           "price": 4987,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531221751",
@@ -4538,7 +4796,7 @@
       "date": "2026-08-31T20:58:28.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
@@ -4546,7 +4804,9 @@
           "price": 2990,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1511481738",
@@ -4566,7 +4826,7 @@
       "date": "2026-08-30T22:49:28.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4574,7 +4834,9 @@
           "price": 5900,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "w57ite8o",
@@ -4617,7 +4879,7 @@
       "date": "2026-08-29T17:30:55.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
@@ -4625,7 +4887,9 @@
           "price": 2990,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1485032596",
@@ -4645,7 +4909,7 @@
       "date": "2026-08-25T03:34:57.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4653,7 +4917,9 @@
           "price": 6000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "TROCO POR IPHONE"
     },
     {
       "id": "1529024507",
@@ -4673,7 +4939,7 @@
       "date": "2026-08-24T16:50:26.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
@@ -4681,7 +4947,9 @@
           "price": 2990,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1526062964",
@@ -4757,7 +5025,7 @@
       "date": "2026-09-09T14:11:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4765,7 +5033,9 @@
           "price": 4300,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531895857",
@@ -4785,7 +5055,7 @@
       "date": "2026-09-02T19:10:19.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4793,7 +5063,9 @@
           "price": 6000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "dfayo5s4",
@@ -4836,7 +5108,7 @@
       "date": "2026-09-02T18:01:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4844,7 +5116,9 @@
           "price": 4800,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1530633431",
@@ -4864,7 +5138,7 @@
       "date": "2026-08-29T17:59:44.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4872,7 +5146,9 @@
           "price": 5000,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1529631724",
@@ -4892,7 +5168,7 @@
       "date": "2026-08-26T15:02:43.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4900,7 +5176,9 @@
           "price": 4799,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceito Troca e Car"
     },
     {
       "id": "1422537635",
@@ -4920,7 +5198,7 @@
       "date": "2026-08-21T15:24:44.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:16:53.765Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -4928,7 +5206,9 @@
           "price": 5500,
           "date": "2026-09-13T02:16:53.765Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1495240574",
@@ -7107,7 +7387,7 @@
       "date": "2026-09-11T02:20:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7115,7 +7395,9 @@
           "price": 4199,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531584727",
@@ -7135,7 +7417,7 @@
       "date": "2026-09-12T15:53:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7143,7 +7425,9 @@
           "price": 4500,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534245012",
@@ -7163,7 +7447,7 @@
       "date": "2026-09-10T17:22:49.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7171,7 +7455,9 @@
           "price": 5500,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1534247532",
@@ -7191,7 +7477,7 @@
       "date": "2026-09-10T17:30:15.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7199,7 +7485,9 @@
           "price": 5250,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "mddwjvcq",
@@ -7242,7 +7530,7 @@
       "date": "2026-09-12T21:22:51.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7250,7 +7538,9 @@
           "price": 4500,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534813786",
@@ -7270,7 +7560,7 @@
       "date": "2026-09-12T13:38:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7278,7 +7568,9 @@
           "price": 4800,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1522622338",
@@ -7298,7 +7590,7 @@
       "date": "2026-08-30T11:44:35.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7306,7 +7598,9 @@
           "price": 6500,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1529776547",
@@ -7326,7 +7620,7 @@
       "date": "2026-08-26T22:29:27.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7334,7 +7628,9 @@
           "price": 7399,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1517586904",
@@ -7354,7 +7650,7 @@
       "date": "2026-08-14T22:34:13.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7362,7 +7658,9 @@
           "price": 6999,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "zr2l86yj",
@@ -7405,7 +7703,7 @@
       "date": "2026-09-12T10:12:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7413,7 +7711,9 @@
           "price": 4700,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1489968539",
@@ -7433,7 +7733,7 @@
       "date": "2026-09-10T13:59:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7441,7 +7741,9 @@
           "price": 4200,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1438937883",
@@ -7461,7 +7763,7 @@
       "date": "2026-08-18T15:08:31.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7469,7 +7771,9 @@
           "price": 7000,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1495240574",
@@ -7489,7 +7793,7 @@
       "date": "2026-09-10T12:19:40.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7497,7 +7801,9 @@
           "price": 7150,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1534387045",
@@ -7517,7 +7823,7 @@
       "date": "2026-09-11T01:29:51.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7525,7 +7831,9 @@
           "price": 6800,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "vbluekak",
@@ -7568,7 +7876,7 @@
       "date": "2026-09-08T14:39:00.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7576,7 +7884,9 @@
           "price": 6498,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1533480206",
@@ -7596,7 +7906,7 @@
       "date": "2026-09-08T14:38:41.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7604,7 +7914,9 @@
           "price": 6499,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1524524411",
@@ -7624,7 +7936,7 @@
       "date": "2026-09-07T11:20:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7632,7 +7944,9 @@
           "price": 5390,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532107441",
@@ -7652,7 +7966,7 @@
       "date": "2026-09-03T14:58:59.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7660,7 +7974,9 @@
           "price": 4987,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1511481738",
@@ -7680,7 +7996,7 @@
       "date": "2026-08-30T22:49:28.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7688,7 +8004,9 @@
           "price": 5900,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "5ldbycxh",
@@ -7731,7 +8049,7 @@
       "date": "2026-08-28T00:25:50.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7739,7 +8057,9 @@
           "price": 7899,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1485032596",
@@ -7759,7 +8079,7 @@
       "date": "2026-08-25T03:34:57.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7767,7 +8087,9 @@
           "price": 6000,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "TROCO POR IPHONE"
     },
     {
       "id": "1531872745",
@@ -7787,7 +8109,7 @@
       "date": "2026-09-02T18:01:33.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7795,7 +8117,9 @@
           "price": 4800,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1530955188",
@@ -7815,7 +8139,7 @@
       "date": "2026-08-31T02:47:30.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7823,7 +8147,9 @@
           "price": 6099,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1530851827",
@@ -7843,7 +8169,7 @@
       "date": "2026-08-30T16:10:29.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7851,7 +8177,9 @@
           "price": 8499,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1529922853",
@@ -7871,7 +8199,7 @@
       "date": "2026-08-27T14:26:34.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7879,7 +8207,9 @@
           "price": 8500,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "mldpetrt",
@@ -7922,7 +8252,7 @@
       "date": "2026-08-26T15:02:43.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7930,7 +8260,9 @@
           "price": 4799,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceito Troca e Car"
     },
     {
       "id": "1095542244",
@@ -7950,7 +8282,7 @@
       "date": "2026-08-21T16:13:26.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7958,7 +8290,9 @@
           "price": 7999,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1309386965",
@@ -7978,7 +8312,7 @@
       "date": "2026-08-21T16:09:00.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -7986,7 +8320,9 @@
           "price": 7700,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1528292455",
@@ -8006,7 +8342,7 @@
       "date": "2026-08-21T14:02:47.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8014,7 +8350,9 @@
           "price": 6000,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1422577690",
@@ -8034,7 +8372,7 @@
       "date": "2026-08-20T15:50:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8042,7 +8380,9 @@
           "price": 4900,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1471339123",
@@ -8062,7 +8402,7 @@
       "date": "2026-08-19T18:29:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8070,7 +8410,9 @@
           "price": 6300,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "e163zzhd",
@@ -8113,7 +8455,7 @@
       "date": "2026-08-19T14:04:14.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8121,7 +8463,9 @@
           "price": 6500,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1084353575",
@@ -8141,7 +8485,7 @@
       "date": "2026-08-19T14:01:57.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8149,7 +8493,9 @@
           "price": 7999,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1527497738",
@@ -8169,7 +8515,7 @@
       "date": "2026-08-18T21:29:02.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8177,7 +8523,9 @@
           "price": 5999,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1471028748",
@@ -8197,7 +8545,7 @@
       "date": "2026-08-14T20:24:58.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8205,7 +8553,9 @@
           "price": 3200,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1446651623",
@@ -8225,7 +8575,7 @@
       "date": "2026-08-14T18:16:21.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8233,7 +8583,9 @@
           "price": 5200,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1429539313",
@@ -8253,7 +8605,7 @@
       "date": "2026-08-14T12:49:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8261,7 +8613,9 @@
           "price": 5500,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1464535226",
@@ -8281,7 +8635,7 @@
       "date": "2026-08-14T11:32:32.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8289,7 +8643,9 @@
           "price": 5700,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "wlqy4oun",
@@ -8416,7 +8772,7 @@
       "date": "2026-08-24T12:03:50.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8424,7 +8780,9 @@
           "price": 3300,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1368904198",
@@ -8444,7 +8802,7 @@
       "date": "2026-08-17T14:14:27.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T02:18:01.778Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -8452,7 +8810,9 @@
           "price": 7999,
           "date": "2026-09-13T02:18:01.778Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "4cvkyien",
@@ -10289,7 +10649,7 @@
       "date": "2026-08-24T12:03:50.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T10:53:46.303Z",
-      "lastSeen": "2026-09-13T11:27:53.425Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -10297,7 +10657,9 @@
           "price": 3300,
           "date": "2026-09-13T10:53:46.303Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "9v1yxsq6",
@@ -10478,7 +10840,7 @@
       "date": "2026-08-21T14:02:47.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T10:53:51.813Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -10486,7 +10848,9 @@
           "price": 6000,
           "date": "2026-09-13T10:53:51.813Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1422577690",
@@ -10506,7 +10870,7 @@
       "date": "2026-08-20T15:50:38.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T10:53:51.813Z",
-      "lastSeen": "2026-09-13T10:54:53.226Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -10514,7 +10878,9 @@
           "price": 4900,
           "date": "2026-09-13T10:53:51.813Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "hnokywku",
@@ -10695,7 +11061,7 @@
       "date": "2026-08-17T14:08:35.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T10:53:57.233Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -10703,7 +11069,9 @@
           "price": 6200,
           "date": "2026-09-13T10:53:57.233Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "1414966155",
@@ -10723,7 +11091,7 @@
       "date": "2026-08-12T13:56:09.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T10:53:57.233Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -10731,7 +11099,9 @@
           "price": 5300,
           "date": "2026-09-13T10:53:57.233Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1532953080",
@@ -10751,7 +11121,7 @@
       "date": "2026-09-06T06:01:35.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T10:53:57.233Z",
-      "lastSeen": "2026-09-13T11:28:06.117Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
       "isNew": false,
       "isOpportunity": false,
       "priceHistory": [
@@ -10759,7 +11129,9 @@
           "price": 5000,
           "date": "2026-09-13T10:53:57.233Z"
         }
-      ]
+      ],
+      "acceptsExchange": true,
+      "exchangeDetails": "Aceita trocas"
     },
     {
       "id": "qjixn580",
@@ -12151,15 +12523,17 @@
       "date": "2026-09-07T14:15:10.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T11:27:57.008Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
-      "isNew": true,
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
         {
           "price": 2990,
           "date": "2026-09-13T11:27:57.008Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1531221751",
@@ -12179,15 +12553,17 @@
       "date": "2026-08-31T20:58:28.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T11:27:57.008Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
-      "isNew": true,
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
         {
           "price": 2990,
           "date": "2026-09-13T11:27:57.008Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "l45tmvud",
@@ -12230,15 +12606,17 @@
       "date": "2026-08-29T17:30:55.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T11:27:57.008Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
-      "isNew": true,
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
         {
           "price": 2990,
           "date": "2026-09-13T11:27:57.008Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "1529024507",
@@ -12258,15 +12636,17 @@
       "date": "2026-08-24T16:50:26.000Z",
       "category": "Notebooks",
       "firstSeen": "2026-09-13T11:27:57.008Z",
-      "lastSeen": "2026-09-13T11:27:57.008Z",
-      "isNew": true,
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": false,
       "isOpportunity": true,
       "priceHistory": [
         {
           "price": 2990,
           "date": "2026-09-13T11:27:57.008Z"
         }
-      ]
+      ],
+      "acceptsExchange": false,
+      "exchangeDetails": null
     },
     {
       "id": "p337us2g",
@@ -12729,6 +13109,806 @@
       "isNew": true,
       "isOpportunity": false,
       "priceHistory": []
+    },
+    {
+      "id": "7xy6mh7i",
+      "trackerId": "trk_1789265801155_ub3xv",
+      "trackerName": "Notebook RTX 3050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:29.414Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:29.414Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "l8k5cqit",
+      "trackerId": "trk_1789265801155_ub3xv",
+      "trackerName": "Notebook RTX 3050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:29.414Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:29.414Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "f8g28cex",
+      "trackerId": "trk_1789265801155_ub3xv",
+      "trackerName": "Notebook RTX 3050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:29.414Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:29.414Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "hu1s7ff8",
+      "trackerId": "trk_1789265801155_ub3xv",
+      "trackerName": "Notebook RTX 3050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:29.414Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:29.414Z",
+      "lastSeen": "2026-09-13T11:33:29.414Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "y3ilgz6v",
+      "trackerId": "trk_1789265801155_fu213",
+      "trackerName": "Notebook RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:33.082Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:33.082Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "4r0rx7kk",
+      "trackerId": "trk_1789265801155_fu213",
+      "trackerName": "Notebook RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:33.082Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:33.082Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "u0ef99y4",
+      "trackerId": "trk_1789265801155_fu213",
+      "trackerName": "Notebook RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:33.082Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:33.082Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "wwozq3rq",
+      "trackerId": "trk_1789265801155_fu213",
+      "trackerName": "Notebook RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:33.082Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:33.082Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "5sgdx79g",
+      "trackerId": "trk_1789265801155_fu213",
+      "trackerName": "Notebook RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:33.082Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:33.082Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "l28p7lto",
+      "trackerId": "trk_1789265801155_fu213",
+      "trackerName": "Notebook RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:33.082Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:33.082Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "quu6nnag",
+      "trackerId": "trk_1789265801155_fu213",
+      "trackerName": "Notebook RTX 3060",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:33.082Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:33.082Z",
+      "lastSeen": "2026-09-13T11:33:33.082Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "owhdxnu1",
+      "trackerId": "trk_1789265801155_6oqke",
+      "trackerName": "Notebook RTX 3070",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:36.654Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:36.655Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "a88dwubx",
+      "trackerId": "trk_1789265801155_6oqke",
+      "trackerName": "Notebook RTX 3070",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:36.654Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:36.655Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "omp1z5ac",
+      "trackerId": "trk_1789265801155_6oqke",
+      "trackerName": "Notebook RTX 3070",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:36.654Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:36.655Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "tz5ph59s",
+      "trackerId": "trk_1789265801155_6oqke",
+      "trackerName": "Notebook RTX 3070",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:36.654Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:36.655Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "byk6lkvn",
+      "trackerId": "trk_1789265801155_6oqke",
+      "trackerName": "Notebook RTX 3070",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:36.654Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:36.655Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "zpm5bgv8",
+      "trackerId": "trk_1789265801155_6oqke",
+      "trackerName": "Notebook RTX 3070",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:36.654Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:36.655Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "4blf6he4",
+      "trackerId": "trk_1789265801155_6oqke",
+      "trackerName": "Notebook RTX 3070",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:36.654Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:36.655Z",
+      "lastSeen": "2026-09-13T11:33:36.655Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "g5co3bpi",
+      "trackerId": "trk_1789265801155_zpx6s",
+      "trackerName": "Notebook RTX 4050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:40.037Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:40.037Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "3rox8kfx",
+      "trackerId": "trk_1789265801155_zpx6s",
+      "trackerName": "Notebook RTX 4050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:40.037Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:40.037Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "2ahzhhvp",
+      "trackerId": "trk_1789265801155_zpx6s",
+      "trackerName": "Notebook RTX 4050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:40.037Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:40.037Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "fqkeugu4",
+      "trackerId": "trk_1789265801155_zpx6s",
+      "trackerName": "Notebook RTX 4050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:40.037Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:40.037Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "c46rf52h",
+      "trackerId": "trk_1789265801155_zpx6s",
+      "trackerName": "Notebook RTX 4050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:40.037Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:40.037Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "1h7c7jp6",
+      "trackerId": "trk_1789265801155_zpx6s",
+      "trackerName": "Notebook RTX 4050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:40.037Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:40.037Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "fa7ahfi4",
+      "trackerId": "trk_1789265801155_zpx6s",
+      "trackerName": "Notebook RTX 4050",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:40.037Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:40.037Z",
+      "lastSeen": "2026-09-13T11:33:40.037Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "z3wntamy",
+      "trackerId": "trk_1789265801156_mxm22",
+      "trackerName": "Notebook Gamer RTX (Todas as Séries)",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:45.774Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:45.774Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "48t5ob8l",
+      "trackerId": "trk_1789265801156_mxm22",
+      "trackerName": "Notebook Gamer RTX (Todas as Séries)",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:45.774Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:45.774Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "qch8agpv",
+      "trackerId": "trk_1789265801156_mxm22",
+      "trackerName": "Notebook Gamer RTX (Todas as Séries)",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:45.774Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:45.774Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "qkel0vs8",
+      "trackerId": "trk_1789265801156_mxm22",
+      "trackerName": "Notebook Gamer RTX (Todas as Séries)",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:45.774Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:45.774Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "d1mzcsdb",
+      "trackerId": "trk_1789265801156_mxm22",
+      "trackerName": "Notebook Gamer RTX (Todas as Séries)",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:45.774Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:45.774Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "fpwmwwpf",
+      "trackerId": "trk_1789265801156_mxm22",
+      "trackerName": "Notebook Gamer RTX (Todas as Séries)",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:45.774Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:45.774Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
+    },
+    {
+      "id": "sfd12l4q",
+      "trackerId": "trk_1789265801156_mxm22",
+      "trackerName": "Notebook Gamer RTX (Todas as Séries)",
+      "title": "",
+      "price": null,
+      "priceFormatted": "Sob consulta",
+      "oldPrice": null,
+      "hasPriceDrop": false,
+      "acceptsExchange": false,
+      "exchangeDetails": null,
+      "url": "",
+      "thumb": null,
+      "imagesCount": 0,
+      "city": "Belo Horizonte e região",
+      "neighborhood": "",
+      "uf": "MG",
+      "date": "2026-09-13T11:33:45.774Z",
+      "category": "Geral",
+      "firstSeen": "2026-09-13T11:33:45.774Z",
+      "lastSeen": "2026-09-13T11:33:45.774Z",
+      "isNew": true,
+      "isOpportunity": false,
+      "priceHistory": []
     }
   ],
   "favorites": [
@@ -12739,6 +13919,6 @@
     "autoCheckEnabled": true,
     "notifyOpportunities": true
   },
-  "lastUpdate": "2026-09-13T11:28:46.700Z",
-  "lastUpdateFormatted": "13/09/2026, 08:28"
+  "lastUpdate": "2026-09-13T11:33:47.295Z",
+  "lastUpdateFormatted": "13/09/2026, 08:33"
 }

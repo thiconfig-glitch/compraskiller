@@ -68,14 +68,43 @@ function extractOlxAds(html) {
         thumb = typeof ad.image === 'string' ? ad.image : (ad.image.originalWebp || ad.image.original);
       }
 
+      const title = (ad.subject || ad.title || '').trim();
+
+      // Detecção de Aceite de Troca
+      let acceptsExchange = false;
+      let exchangeDetails = null;
+
+      // 1. Campo nativo da OLX em properties
+      if (Array.isArray(ad.properties)) {
+        const exProp = ad.properties.find(p => p.name === 'exchange' || p.label === 'Aceita trocas');
+        if (exProp && (exProp.value === 'Sim' || exProp.value === 'true' || exProp.value === true)) {
+          acceptsExchange = true;
+          exchangeDetails = 'Aceita trocas';
+        }
+      }
+
+      // 2. Busca no título por termos de troca
+      const tradeRegex = /(aceit[ao]\s+troca|troc[ao]\s+por|troco\b|pego\s+troca|estudo\s+troca|troca\s+em\s+notebook|aceita\s+notebook|aceit[ao]\s+proposta)/i;
+      if (tradeRegex.test(title)) {
+        acceptsExchange = true;
+        const match = title.match(/(aceit[ao]\s+troca[^\,\-\|\)]*|troc[ao]\s+por[^\,\-\|\)]*|pego\s+troca[^\,\-\|\)]*|estudo\s+troca[^\,\-\|\)]*|troca\s+em\s+notebook[^\,\-\|\)]*)/i);
+        if (match && match[0]) {
+          exchangeDetails = match[0].trim();
+        } else if (!exchangeDetails) {
+          exchangeDetails = 'Aceita troca';
+        }
+      }
+
       return {
         id: String(ad.listId || ad.adId || Math.random().toString(36).substring(2, 10)),
-        title: (ad.subject || ad.title || '').trim(),
+        title: title,
         price: priceNum,
         priceFormatted: ad.priceValue || (priceNum !== null ? `R$ ${priceNum.toLocaleString('pt-BR')}` : 'Sob consulta'),
         oldPrice: ad.oldPrice || null,
         oldPriceNum: oldPriceNum,
         hasPriceDrop: !!(oldPriceNum && priceNum && oldPriceNum > priceNum),
+        acceptsExchange: !!acceptsExchange,
+        exchangeDetails: exchangeDetails,
         url: ad.url || '',
         thumb: thumb,
         imagesCount: ad.images && Array.isArray(ad.images) ? ad.images.length : (thumb ? 1 : 0),

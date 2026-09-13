@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="style.css?v=2.1.0">
+  <link rel="stylesheet" href="style.css?v=2.2.0">
 </head>
 <body>
   <!-- Header Principal -->
@@ -63,6 +63,10 @@
       <div class="stat-pill stat-pill-opportunity" data-filter="opportunities">
         <span class="stat-num" id="stat-opportunities">0</span>
         <span class="stat-label">🔥 Oportunidades</span>
+      </div>
+      <div class="stat-pill stat-pill-exchange" data-filter="exchange">
+        <span class="stat-num" id="stat-exchanges">0</span>
+        <span class="stat-label">🔄 Aceita Troca</span>
       </div>
       <div class="stat-pill stat-pill-drops" data-filter="drops">
         <span class="stat-num" id="stat-price-drops">0</span>
@@ -107,6 +111,7 @@
           <div class="filter-chips" id="filter-chips">
             <button type="button" class="chip-btn active" data-filter="all">Todos</button>
             <button type="button" class="chip-btn chip-opportunity" data-filter="opportunities">🔥 Oportunidades</button>
+            <button type="button" class="chip-btn chip-exchange" data-filter="exchange">🔄 Aceita Troca</button>
             <button type="button" class="chip-btn chip-drops" data-filter="drops">📉 Baixou Preço</button>
             <button type="button" class="chip-btn chip-new" data-filter="new">✨ Novos</button>
           </div>
@@ -349,6 +354,6 @@
   <!-- Toast de Notificação -->
   <div class="toast-container" id="toast-container"></div>
 
-  <script src="app.js?v=2.1.0"></script>
+  <script src="app.js?v=2.2.0"></script>
 </body>
 </html>

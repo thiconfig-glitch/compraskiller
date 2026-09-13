@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Header e Métricas
   const statTotalTrackers = document.getElementById('stat-total-trackers');
   const statOpportunities = document.getElementById('stat-opportunities');
+  const statExchanges = document.getElementById('stat-exchanges');
   const statPriceDrops = document.getElementById('stat-price-drops');
   const btnCheckAll = document.getElementById('btn-check-all');
   const btnInstallPwa = document.getElementById('btn-install-pwa');
@@ -253,6 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateStatsUI() {
     if (statTotalTrackers) statTotalTrackers.textContent = statsData.totalTrackers || 0;
     if (statOpportunities) statOpportunities.textContent = statsData.opportunities || 0;
+    if (statExchanges) statExchanges.textContent = statsData.exchanges || 0;
     if (statPriceDrops) statPriceDrops.textContent = statsData.priceDrops || 0;
 
     if (badgeRadar) {
@@ -283,9 +285,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const localFavs = getLocalFavorites();
         const opps = (db.items || []).filter(i => i.isOpportunity).length;
         const drops = (db.items || []).filter(i => i.hasPriceDrop).length;
+        const tradeRegex = /(aceit[ao]\s+troca|troc[ao]\s+por|troco\b|pego\s+troca|estudo\s+troca|troca\s+em\s+notebook|aceita\s+notebook|aceit[ao]\s+proposta)/i;
+        const exchs = (db.items || []).filter(i => i.acceptsExchange || tradeRegex.test(i.title || '')).length;
         statsData = {
           totalTrackers: (db.trackers || []).filter(t => t.enabled !== false).length,
           opportunities: opps,
+          exchanges: exchs,
           priceDrops: drops,
           favorites: Math.max(localFavs.length, (db.favorites || []).length)
         };
@@ -329,7 +334,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }));
 
         // Filtros
+        const tradeRegex = /(aceit[ao]\s+troca|troc[ao]\s+por|troco\b|pego\s+troca|estudo\s+troca|troca\s+em\s+notebook|aceita\s+notebook|aceit[ao]\s+proposta)/i;
         if (currentFilter === 'opportunities') items = items.filter(i => i.isOpportunity);
+        else if (currentFilter === 'exchange') items = items.filter(i => i.acceptsExchange || tradeRegex.test(i.title || ''));
         else if (currentFilter === 'drops') items = items.filter(i => i.hasPriceDrop);
         else if (currentFilter === 'new') items = items.filter(i => i.isNew);
 
@@ -362,6 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const params = new URLSearchParams();
       if (currentFilter === 'opportunities') params.append('onlyOpportunities', 'true');
+      if (currentFilter === 'exchange') params.append('onlyExchange', 'true');
       if (currentFilter === 'drops') params.append('onlyDrops', 'true');
       if (currentFilter === 'new') params.append('onlyNew', 'true');
       params.append('sortBy', currentSort);
@@ -540,8 +548,17 @@ document.addEventListener('DOMContentLoaded', () => {
     container.innerHTML = '';
 
     ads.forEach(ad => {
+      // Detecção de troca (direta ou fallback por regex no título)
+      const tradeRegex = /(aceit[ao]\s+troca|troc[ao]\s+por|troco\b|pego\s+troca|estudo\s+troca|troca\s+em\s+notebook|aceita\s+notebook|aceit[ao]\s+proposta)/i;
+      const isExchange = !!(ad.acceptsExchange || tradeRegex.test(ad.title || ''));
+      let exchangeDetails = ad.exchangeDetails;
+      if (!exchangeDetails && isExchange) {
+        const m = (ad.title || '').match(/(aceit[ao]\s+troca[^\,\-\|\)]*|troc[ao]\s+por[^\,\-\|\)]*|pego\s+troca[^\,\-\|\)]*|estudo\s+troca[^\,\-\|\)]*|troca\s+em\s+notebook[^\,\-\|\)]*)/i);
+        exchangeDetails = m && m[0] ? m[0].trim() : 'Aceita troca';
+      }
+
       const card = document.createElement('div');
-      card.className = `ad-card ${ad.isOpportunity ? 'is-opportunity' : ''} ${ad.hasPriceDrop ? 'has-price-drop' : ''}`;
+      card.className = `ad-card ${ad.isOpportunity ? 'is-opportunity' : ''} ${ad.hasPriceDrop ? 'has-price-drop' : ''} ${isExchange ? 'has-exchange' : ''}`;
 
       const locationStr = [ad.neighborhood, ad.city].filter(Boolean).join(' • ') || 'Belo Horizonte e região';
       const formattedDate = formatRelativeTime(ad.date || ad.firstSeen);
@@ -549,6 +566,9 @@ document.addEventListener('DOMContentLoaded', () => {
       let badgesHtml = '';
       if (ad.isOpportunity) {
         badgesHtml += `<span class="badge-tag badge-tag-opportunity">🔥 Oportunidade</span>`;
+      }
+      if (isExchange) {
+        badgesHtml += `<span class="badge-tag badge-tag-exchange">🔄 Aceita Troca</span>`;
       }
       if (ad.hasPriceDrop) {
         badgesHtml += `<span class="badge-tag badge-tag-drop">📉 Baixou</span>`;
@@ -576,6 +596,16 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
 
           <h4 class="ad-title" title="${escapeHtml(ad.title)}">${escapeHtml(ad.title)}</h4>
+
+          ${isExchange ? `
+            <div class="ad-exchange-card-banner">
+              <span class="exchange-badge-icon">🔄</span>
+              <div class="exchange-badge-content">
+                <span class="exchange-badge-title">Aceita Troca</span>
+                <span class="exchange-badge-detail">${escapeHtml(exchangeDetails || 'Informado pelo vendedor')}</span>
+              </div>
+            </div>
+          ` : ''}
 
           <div class="ad-meta-row">
             <span class="ad-location" title="${escapeHtml(locationStr)}">

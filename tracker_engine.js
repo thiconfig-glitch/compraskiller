@@ -204,6 +204,8 @@ async function runTrackerCheck(trackerId) {
         city: ad.city,
         neighborhood: ad.neighborhood,
         category: ad.category,
+        acceptsExchange: !!ad.acceptsExchange,
+        exchangeDetails: ad.exchangeDetails || null,
         lastSeen: now,
         isOpportunity: isBelowTarget,
         isNew: false, // já existia
@@ -223,6 +225,8 @@ async function runTrackerCheck(trackerId) {
         priceFormatted: ad.priceFormatted,
         oldPrice: ad.oldPrice,
         hasPriceDrop: ad.hasPriceDrop,
+        acceptsExchange: !!ad.acceptsExchange,
+        exchangeDetails: ad.exchangeDetails || null,
         url: ad.url,
         thumb: ad.thumb,
         imagesCount: ad.imagesCount,
@@ -306,6 +310,11 @@ function getFeed(filters = {}) {
   // Filtro: Apenas anúncios novos
   if (filters.onlyNew === true || filters.onlyNew === 'true') {
     items = items.filter(i => i.isNew);
+  }
+
+  // Filtro: Apenas anúncios com aceite de troca
+  if (filters.onlyExchange === true || filters.onlyExchange === 'true') {
+    items = items.filter(i => i.acceptsExchange);
   }
 
   // Filtro por busca textual no título ou bairro
