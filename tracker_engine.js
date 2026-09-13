@@ -318,18 +318,22 @@ function getFeed(filters = {}) {
     );
   }
 
-  // Ordenação
-  const sortBy = filters.sortBy || 'opportunity';
-  if (sortBy === 'opportunity') {
+  // Ordenação (padrão: menor preço primeiro / mais perto do preço alvo)
+  const sortBy = filters.sortBy || 'price-asc';
+  if (sortBy === 'price-asc') {
+    items.sort((a, b) => {
+      const pA = (typeof a.price === 'number' && a.price > 0) ? a.price : 9999999;
+      const pB = (typeof b.price === 'number' && b.price > 0) ? b.price : 9999999;
+      return pA - pB;
+    });
+  } else if (sortBy === 'opportunity') {
     items.sort((a, b) => {
       if (a.isOpportunity && !b.isOpportunity) return -1;
       if (!a.isOpportunity && b.isOpportunity) return 1;
-      if (a.hasPriceDrop && !b.hasPriceDrop) return -1;
-      if (!a.hasPriceDrop && b.hasPriceDrop) return 1;
-      return (a.price || Infinity) - (b.price || Infinity);
+      const pA = (typeof a.price === 'number' && a.price > 0) ? a.price : 9999999;
+      const pB = (typeof b.price === 'number' && b.price > 0) ? b.price : 9999999;
+      return pA - pB;
     });
-  } else if (sortBy === 'price-asc') {
-    items.sort((a, b) => (a.price || Infinity) - (b.price || Infinity));
   } else if (sortBy === 'price-desc') {
     items.sort((a, b) => (b.price || 0) - (a.price || 0));
   } else if (sortBy === 'recent') {
@@ -446,7 +450,16 @@ function syncTrackersFromConfig() {
         modified = true;
       } else {
         if (item.name && existing.name !== item.name) { existing.name = item.name; modified = true; }
-        if (item.targetPrice !== undefined && existing.targetPrice !== (item.targetPrice ? Number(item.targetPrice) : null)) { existing.targetPrice = item.targetPrice ? Number(item.targetPrice) : null; modified = true; }
+        if (item.targetPrice !== undefined && existing.targetPrice !== (item.targetPrice ? Number(item.targetPrice) : null)) { 
+          existing.targetPrice = item.targetPrice ? Number(item.targetPrice) : null; 
+          modified = true; 
+          db.items.forEach(it => {
+            if (it.trackerId === existing.id) {
+              it.isOpportunity = !!(existing.targetPrice && it.price !== null && it.price <= existing.targetPrice);
+            }
+          });
+          existing.opportunitiesCount = db.items.filter(it => it.trackerId === existing.id && it.isOpportunity).length;
+        }
         if (item.minPrice !== undefined && existing.minPrice !== (item.minPrice ? Number(item.minPrice) : null)) { existing.minPrice = item.minPrice ? Number(item.minPrice) : null; modified = true; }
         if (item.maxPrice !== undefined && existing.maxPrice !== (item.maxPrice ? Number(item.maxPrice) : null)) { existing.maxPrice = item.maxPrice ? Number(item.maxPrice) : null; modified = true; }
         if (item.negativeKeywords !== undefined && existing.negativeKeywords !== item.negativeKeywords) { existing.negativeKeywords = item.negativeKeywords; modified = true; }

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   let currentTab = 'view-feed';
   let currentFilter = 'all';
-  let currentSort = 'opportunity';
+  let currentSort = 'price-asc';
   let feedSearchTerm = '';
   
   let trackersData = [];
@@ -333,17 +333,21 @@ document.addEventListener('DOMContentLoaded', () => {
         else if (currentFilter === 'drops') items = items.filter(i => i.hasPriceDrop);
         else if (currentFilter === 'new') items = items.filter(i => i.isNew);
 
-        // Ordenação
-        if (currentSort === 'opportunity') {
+        // Ordenação (menor preço primeiro / mais perto do preço alvo)
+        if (currentSort === 'price-asc') {
+          items.sort((a, b) => {
+            const pA = (typeof a.price === 'number' && a.price > 0) ? a.price : 9999999;
+            const pB = (typeof b.price === 'number' && b.price > 0) ? b.price : 9999999;
+            return pA - pB;
+          });
+        } else if (currentSort === 'opportunity') {
           items.sort((a, b) => {
             if (a.isOpportunity && !b.isOpportunity) return -1;
             if (!a.isOpportunity && b.isOpportunity) return 1;
-            if (a.hasPriceDrop && !b.hasPriceDrop) return -1;
-            if (!a.hasPriceDrop && b.hasPriceDrop) return 1;
-            return (a.price || Infinity) - (b.price || Infinity);
+            const pA = (typeof a.price === 'number' && a.price > 0) ? a.price : 9999999;
+            const pB = (typeof b.price === 'number' && b.price > 0) ? b.price : 9999999;
+            return pA - pB;
           });
-        } else if (currentSort === 'price-asc') {
-          items.sort((a, b) => (a.price || Infinity) - (b.price || Infinity));
         } else if (currentSort === 'price-desc') {
           items.sort((a, b) => (b.price || 0) - (a.price || 0));
         } else if (currentSort === 'recent') {
@@ -683,6 +687,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <button type="button" class="btn-check-tracker" data-id="${t.id}" title="Verificar anúncios agora na OLX">
               <span>⚡</span> Verificar Agora
             </button>
+            <button type="button" class="btn-view-tracker-feed" data-name="${escapeHtml(t.name)}" title="Ver anúncios mais baratos">
+              <span>🏷️</span> Mais Baratos
+            </button>
           </div>
           <span style="font-size: 10.5px; color: var(--text-dim);">
             ${t.lastChecked ? `Última checagem: ${formatRelativeTime(t.lastChecked)}` : 'Aguardando 1ª varredura'}
@@ -717,6 +724,20 @@ document.addEventListener('DOMContentLoaded', () => {
             btnScan.disabled = false;
             btnScan.innerHTML = '<span>⚡</span> Verificar Agora';
           }
+        });
+      }
+
+      // Listener para ver anúncios filtrados e ordenados pelo menor preço
+      const btnViewFeed = card.querySelector('.btn-view-tracker-feed');
+      if (btnViewFeed) {
+        btnViewFeed.addEventListener('click', () => {
+          feedSearchInput.value = t.name;
+          feedSearchTerm = t.name.toLowerCase();
+          if (btnClearFeedSearch) btnClearFeedSearch.style.display = 'block';
+          currentSort = 'price-asc';
+          if (feedSortSelect) feedSortSelect.value = 'price-asc';
+          switchTab('view-feed');
+          filterAndRenderFeed();
         });
       }
 

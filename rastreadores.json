@@ -1,10 +1,10 @@
 [
   {
-    "name": "Notebook RTX (Min R$ 2.300)",
-    "query": "notebook rtx",
-    "targetPrice": 3800,
-    "minPrice": 2300,
-    "maxPrice": 9000,
+    "name": "Notebook Gamer RTX (Todas as Séries)",
+    "query": "notebook gamer rtx",
+    "targetPrice": 2300,
+    "minPrice": 1800,
+    "maxPrice": 8500,
     "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça",
     "municipality": "",
     "enabled": true
@@ -12,8 +12,8 @@
   {
     "name": "Notebook RTX 3050",
     "query": "notebook rtx 3050",
-    "targetPrice": 3000,
-    "minPrice": 2300,
+    "targetPrice": 2300,
+    "minPrice": 1800,
     "maxPrice": 4200,
     "negativeKeywords": "1650, 165o, 1660, 2050, 2060, gtx, mx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, capa",
     "municipality": "",
@@ -22,8 +22,8 @@
   {
     "name": "Notebook RTX 3060",
     "query": "notebook rtx 3060",
-    "targetPrice": 3800,
-    "minPrice": 2400,
+    "targetPrice": 2800,
+    "minPrice": 2000,
     "maxPrice": 5500,
     "negativeKeywords": "1650, 165o, 1660, 2050, 2060, gtx, mx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, capa",
     "municipality": "",
@@ -32,8 +32,8 @@
   {
     "name": "Notebook RTX 3070",
     "query": "notebook rtx 3070",
-    "targetPrice": 4800,
-    "minPrice": 3000,
+    "targetPrice": 3500,
+    "minPrice": 2200,
     "maxPrice": 7500,
     "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, cooler, carcaça",
     "municipality": "",
@@ -42,8 +42,8 @@
   {
     "name": "Notebook RTX 4050",
     "query": "notebook rtx 4050",
-    "targetPrice": 4200,
-    "minPrice": 2800,
+    "targetPrice": 3000,
+    "minPrice": 2200,
     "maxPrice": 6000,
     "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas fonte, cooler, carcaça",
     "municipality": "",
@@ -52,20 +52,10 @@
   {
     "name": "Notebook RTX 4060",
     "query": "notebook rtx 4060",
-    "targetPrice": 5200,
-    "minPrice": 3500,
+    "targetPrice": 3600,
+    "minPrice": 2500,
     "maxPrice": 7500,
     "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas fonte, cooler, carcaça",
-    "municipality": "",
-    "enabled": true
-  },
-  {
-    "name": "Notebook Gamer RTX Geral",
-    "query": "notebook gamer rtx",
-    "targetPrice": 3600,
-    "minPrice": 2300,
-    "maxPrice": 8500,
-    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça",
     "municipality": "",
     "enabled": true
   }
