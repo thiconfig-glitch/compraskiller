@@ -11,11 +11,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:16:42.889Z",
-      "adsCount": 31,
-      "lowestPrice": 1999,
-      "averagePrice": 3471,
-      "opportunitiesCount": 9
+      "lastChecked": "2026-09-13T02:17:40.951Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801155_fu213",
@@ -28,11 +28,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:16:46.451Z",
-      "adsCount": 57,
-      "lowestPrice": 2990,
-      "averagePrice": 4533,
-      "opportunitiesCount": 7
+      "lastChecked": "2026-09-13T02:17:42.460Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801155_6oqke",
@@ -45,11 +45,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:16:50.113Z",
-      "adsCount": 57,
-      "lowestPrice": 3200,
-      "averagePrice": 5347,
-      "opportunitiesCount": 19
+      "lastChecked": "2026-09-13T02:17:43.975Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801155_zpx6s",
@@ -62,11 +62,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:16:53.765Z",
-      "adsCount": 57,
-      "lowestPrice": 2990,
-      "averagePrice": 4772,
-      "opportunitiesCount": 14
+      "lastChecked": "2026-09-13T02:17:45.482Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801156_fpx66",
@@ -79,11 +79,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T02:16:57.113Z",
-      "adsCount": 57,
-      "lowestPrice": 3699,
-      "averagePrice": 5389,
-      "opportunitiesCount": 25
+      "lastChecked": "2026-09-13T02:17:46.990Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801156_mxm22",
@@ -96,7 +96,7 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T02:16:59.222Z",
+      "lastChecked": "2026-09-13T02:17:48.497Z",
       "adsCount": 0,
       "lowestPrice": null,
       "averagePrice": null,
@@ -7200,6 +7200,6 @@
     "autoCheckEnabled": true,
     "notifyOpportunities": true
   },
-  "lastUpdate": "2026-09-13T02:17:00.732Z",
+  "lastUpdate": "2026-09-13T02:17:50.001Z",
   "lastUpdateFormatted": "12/09/2026, 23:17"
 }
