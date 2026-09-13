@@ -1,11 +1,11 @@
-const CACHE_NAME = 'radar-olx-v1';
+const CACHE_NAME = 'radar-olx-v2';
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js',
-  '/manifest.json',
-  '/icons/radar-icon.svg'
+  './',
+  './index.html',
+  './style.css',
+  './app.js',
+  './manifest.json',
+  './icons/radar-icon.svg'
 ];
 
 self.addEventListener('install', (event) => {
@@ -57,7 +57,7 @@ self.addEventListener('fetch', (event) => {
         return caches.match(event.request).then((cached) => {
           if (cached) return cached;
           if (event.request.headers.get('accept')?.includes('text/html')) {
-            return caches.match('/index.html');
+            return caches.match('./index.html') || caches.match('./');
           }
         });
       })

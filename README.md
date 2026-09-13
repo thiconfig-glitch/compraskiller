@@ -45,3 +45,19 @@ Aplicativo PWA (Progressive Web App) desenvolvido para celular e desktop, focado
 1. Abra o link no Safari.
 2. Toque no botão de compartilhamento (ícone de quadrado com seta para cima).
 3. Selecione **"Adicionar à Tela de Início"**.
+
+---
+
+## 🌐 100% no GitHub (GitHub Actions + GitHub Pages)
+
+O projeto está preparado para rodar de forma 100% autônoma no GitHub:
+
+1. **Ativar o GitHub Pages:**
+   - Acesse: `https://github.com/thiconfig-glitch/compraskiller/settings/pages`
+   - Em **Build and deployment > Source**, selecione: **GitHub Actions**.
+2. **Atualização Automática na Nuvem:**
+   - O robô roda automaticamente todos os dias às 07:00 e 19:00 (horário de Brasília).
+3. **Disparar Varredura Manual:**
+   - Vá na aba **Actions** (`https://github.com/thiconfig-glitch/compraskiller/actions`) ➔ selecione o workflow **Radar OLX BH - Atualização e Deploy Pages** ➔ clique em **Run workflow**.
+   - Ou clique no link **"⚡ Atualizar no GitHub"** diretamente dentro do aplicativo PWA.
+

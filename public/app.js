@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').then(
+      navigator.serviceWorker.register('./sw.js').then(
         reg => console.log('ServiceWorker registrado:', reg.scope),
         err => console.warn('Falha ao registrar ServiceWorker:', err)
       );
@@ -186,37 +186,124 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ==========================================
-  // CARREGAR DADOS DA API
+  // MODO ESTÁTICO / GITHUB PAGES & CACHE LOCAL
+  // ==========================================
+  const isStaticHost = window.location.hostname.endsWith('github.io') || window.location.protocol === 'file:';
+  let isStaticMode = isStaticHost;
+  let staticDb = null;
+
+  const syncBanner = document.getElementById('sync-banner');
+  const syncText = document.getElementById('sync-text');
+
+  function getLocalFavorites() {
+    try {
+      return JSON.parse(localStorage.getItem('radar_olx_favs') || '[]');
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveLocalFavorites(favs) {
+    try {
+      localStorage.setItem('radar_olx_favs', JSON.stringify(favs));
+    } catch (e) {}
+  }
+
+  function toggleLocalFavorite(adId) {
+    const favs = getLocalFavorites();
+    const idx = favs.indexOf(adId);
+    let isFav = false;
+    if (idx >= 0) {
+      favs.splice(idx, 1);
+      isFav = false;
+    } else {
+      favs.push(adId);
+      isFav = true;
+    }
+    saveLocalFavorites(favs);
+    return isFav;
+  }
+
+  async function getStaticDatabase(forceReload = false) {
+    if (staticDb && !forceReload) return staticDb;
+    try {
+      const res = await fetch('./data/database.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      staticDb = await res.json();
+      return staticDb;
+    } catch (err) {
+      console.warn('Falha ao carregar ./data/database.json:', err);
+      return { trackers: [], items: [], favorites: [], settings: {} };
+    }
+  }
+
+  function updateSyncBanner(dateStr) {
+    if (!syncBanner) return;
+    syncBanner.style.display = 'flex';
+    if (syncText) {
+      syncText.textContent = dateStr 
+        ? `Última varredura no GitHub: ${dateStr}` 
+        : `Radar OLX BH • Atualizado via GitHub Actions`;
+    }
+  }
+
+  function updateStatsUI() {
+    if (statTotalTrackers) statTotalTrackers.textContent = statsData.totalTrackers || 0;
+    if (statOpportunities) statOpportunities.textContent = statsData.opportunities || 0;
+    if (statPriceDrops) statPriceDrops.textContent = statsData.priceDrops || 0;
+
+    if (badgeRadar) {
+      if (statsData.opportunities > 0) {
+        badgeRadar.textContent = statsData.opportunities;
+        badgeRadar.style.display = 'flex';
+      } else {
+        badgeRadar.style.display = 'none';
+      }
+    }
+    if (badgeFavorites) {
+      if (statsData.favorites > 0) {
+        badgeFavorites.textContent = statsData.favorites;
+        badgeFavorites.style.display = 'flex';
+      } else {
+        badgeFavorites.style.display = 'none';
+      }
+    }
+  }
+
+  // ==========================================
+  // CARREGAR DADOS DA API OU DO BANCO ESTÁTICO
   // ==========================================
   async function loadStats() {
     try {
+      if (isStaticMode) {
+        const db = await getStaticDatabase();
+        const localFavs = getLocalFavorites();
+        const opps = (db.items || []).filter(i => i.isOpportunity).length;
+        const drops = (db.items || []).filter(i => i.hasPriceDrop).length;
+        statsData = {
+          totalTrackers: (db.trackers || []).filter(t => t.enabled !== false).length,
+          opportunities: opps,
+          priceDrops: drops,
+          favorites: Math.max(localFavs.length, (db.favorites || []).length)
+        };
+        updateStatsUI();
+        updateSyncBanner(db.lastUpdateFormatted || db.lastUpdate);
+        return;
+      }
+
       const res = await fetch('/api/stats');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       if (data.status === 'success' && data.data) {
         statsData = data.data;
-        if (statTotalTrackers) statTotalTrackers.textContent = statsData.totalTrackers || 0;
-        if (statOpportunities) statOpportunities.textContent = statsData.opportunities || 0;
-        if (statPriceDrops) statPriceDrops.textContent = statsData.priceDrops || 0;
-
-        if (badgeRadar) {
-          if (statsData.opportunities > 0) {
-            badgeRadar.textContent = statsData.opportunities;
-            badgeRadar.style.display = 'flex';
-          } else {
-            badgeRadar.style.display = 'none';
-          }
-        }
-        if (badgeFavorites) {
-          if (statsData.favorites > 0) {
-            badgeFavorites.textContent = statsData.favorites;
-            badgeFavorites.style.display = 'flex';
-          } else {
-            badgeFavorites.style.display = 'none';
-          }
-        }
+        updateStatsUI();
       }
     } catch (err) {
-      console.warn('Erro ao carregar estatísticas:', err.message);
+      console.warn('Erro ao carregar estatísticas via API, ativando modo estático:', err.message);
+      isStaticMode = true;
+      const db = await getStaticDatabase();
+      updateSyncBanner(db.lastUpdateFormatted || db.lastUpdate);
+      loadStats();
     }
   }
 
@@ -230,6 +317,42 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
 
     try {
+      if (isStaticMode) {
+        const db = await getStaticDatabase();
+        const localFavs = getLocalFavorites();
+        let items = (db.items || []).map(item => ({
+          ...item,
+          isFavorite: localFavs.includes(item.id) || (db.favorites || []).includes(item.id)
+        }));
+
+        // Filtros
+        if (currentFilter === 'opportunities') items = items.filter(i => i.isOpportunity);
+        else if (currentFilter === 'drops') items = items.filter(i => i.hasPriceDrop);
+        else if (currentFilter === 'new') items = items.filter(i => i.isNew);
+
+        // Ordenação
+        if (currentSort === 'opportunity') {
+          items.sort((a, b) => {
+            if (a.isOpportunity && !b.isOpportunity) return -1;
+            if (!a.isOpportunity && b.isOpportunity) return 1;
+            if (a.hasPriceDrop && !b.hasPriceDrop) return -1;
+            if (!a.hasPriceDrop && b.hasPriceDrop) return 1;
+            return (a.price || Infinity) - (b.price || Infinity);
+          });
+        } else if (currentSort === 'price-asc') {
+          items.sort((a, b) => (a.price || Infinity) - (b.price || Infinity));
+        } else if (currentSort === 'price-desc') {
+          items.sort((a, b) => (b.price || 0) - (a.price || 0));
+        } else if (currentSort === 'recent') {
+          items.sort((a, b) => new Date(b.date || b.firstSeen || 0) - new Date(a.date || a.firstSeen || 0));
+        }
+
+        feedData = items;
+        filterAndRenderFeed();
+        loadStats();
+        return;
+      }
+
       const params = new URLSearchParams();
       if (currentFilter === 'opportunities') params.append('onlyOpportunities', 'true');
       if (currentFilter === 'drops') params.append('onlyDrops', 'true');
@@ -237,6 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
       params.append('sortBy', currentSort);
 
       const res = await fetch(`/api/feed?${params.toString()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
 
       if (json.status === 'success') {
@@ -245,6 +369,12 @@ document.addEventListener('DOMContentLoaded', () => {
         loadStats();
       }
     } catch (err) {
+      if (!isStaticMode) {
+        console.warn('Falha na API feed, ativando modo estático:', err.message);
+        isStaticMode = true;
+        loadFeed();
+        return;
+      }
       feedContainer.innerHTML = `
         <div class="empty-state">
           <div class="empty-icon">⚠️</div>
@@ -278,7 +408,33 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
 
     try {
+      if (isStaticMode) {
+        const db = await getStaticDatabase();
+        const trackers = (db.trackers || []).map(t => {
+          const trackerAds = (db.items || []).filter(i => i.trackerId === t.id);
+          const opps = trackerAds.filter(i => i.isOpportunity).length;
+          const prices = trackerAds.map(i => i.price).filter(p => p > 0);
+          const lowest = prices.length ? Math.min(...prices) : null;
+          const avg = prices.length ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) : null;
+          return {
+            ...t,
+            adsCount: trackerAds.length,
+            opportunitiesCount: opps,
+            lowestPrice: lowest,
+            averagePrice: avg
+          };
+        });
+        trackersData = trackers;
+        renderTrackersList(trackersData);
+        if (badgeTrackers) {
+          badgeTrackers.textContent = trackersData.length;
+          badgeTrackers.style.display = trackersData.length > 0 ? 'flex' : 'none';
+        }
+        return;
+      }
+
       const res = await fetch('/api/trackers');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
       if (json.status === 'success') {
         trackersData = json.data || [];
@@ -289,6 +445,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     } catch (err) {
+      if (!isStaticMode) {
+        isStaticMode = true;
+        loadTrackers();
+        return;
+      }
       trackersGrid.innerHTML = `
         <div class="empty-state">
           <div class="empty-icon">⚠️</div>
@@ -309,7 +470,24 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
 
     try {
+      if (isStaticMode) {
+        const db = await getStaticDatabase();
+        const localFavs = getLocalFavorites();
+        const favAds = (db.items || [])
+          .filter(i => localFavs.includes(i.id) || (db.favorites || []).includes(i.id))
+          .map(i => ({ ...i, isFavorite: true }));
+
+        favoritesData = favAds;
+        renderAdCards(favoritesContainer, favoritesData, 'Você ainda não salvou nenhum anúncio como favorito.');
+        if (badgeFavorites) {
+          badgeFavorites.textContent = favoritesData.length;
+          badgeFavorites.style.display = favoritesData.length > 0 ? 'flex' : 'none';
+        }
+        return;
+      }
+
       const res = await fetch('/api/favorites');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
       if (json.status === 'success') {
         favoritesData = json.data || [];
@@ -320,6 +498,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     } catch (err) {
+      if (!isStaticMode) {
+        isStaticMode = true;
+        loadFavorites();
+        return;
+      }
       favoritesContainer.innerHTML = `
         <div class="empty-state">
           <div class="empty-icon">⚠️</div>
@@ -409,6 +592,19 @@ document.addEventListener('DOMContentLoaded', () => {
         btnFav.addEventListener('click', async (e) => {
           e.stopPropagation();
           try {
+            if (isStaticMode) {
+              const isFav = toggleLocalFavorite(ad.id);
+              ad.isFavorite = isFav;
+              btnFav.classList.toggle('active', isFav);
+              btnFav.textContent = isFav ? '★' : '☆';
+              showToast(isFav ? 'Salvo nos favoritos! ⭐' : 'Removido dos favoritos.', 'info');
+              loadStats();
+              if (currentTab === 'view-favorites') {
+                loadFavorites();
+              }
+              return;
+            }
+
             const res = await fetch('/api/favorites/toggle', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
@@ -426,7 +622,12 @@ document.addEventListener('DOMContentLoaded', () => {
               }
             }
           } catch(err) {
-            showToast('Erro ao favoritar.', 'error');
+            const isFav = toggleLocalFavorite(ad.id);
+            ad.isFavorite = isFav;
+            btnFav.classList.toggle('active', isFav);
+            btnFav.textContent = isFav ? '★' : '☆';
+            showToast(isFav ? 'Salvo nos favoritos! ⭐' : 'Removido dos favoritos.', 'info');
+            loadStats();
           }
         });
       }
@@ -490,6 +691,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const btnScan = card.querySelector('.btn-check-tracker');
       if (btnScan) {
         btnScan.addEventListener('click', async () => {
+          if (isStaticMode) {
+            const go = confirm(`⚡ No GitHub Pages, a varredura é executada pelo robô do GitHub Actions.\n\nDeseja abrir o GitHub Actions para rodar a varredura com 1 clique?`);
+            if (go) {
+              window.open('https://github.com/thiconfig-glitch/compraskiller/actions', '_blank');
+            }
+            return;
+          }
+
           btnScan.disabled = true;
           btnScan.innerHTML = '<span>⏳</span> Verificando...';
           try {
@@ -515,6 +724,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const btnDel = card.querySelector('.btn-delete-tracker');
       if (btnDel) {
         btnDel.addEventListener('click', async () => {
+          if (isStaticMode) {
+            alert('💡 No GitHub Pages, os rastreadores ativos são definidos no arquivo data/database.json do seu repositório.');
+            return;
+          }
           if (!confirm(`Deseja realmente excluir o rastreador "${t.name}"?`)) return;
           try {
             const res = await fetch(`/api/trackers/${t.id}`, { method: 'DELETE' });
@@ -539,6 +752,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   if (btnCheckAll) {
     btnCheckAll.addEventListener('click', async () => {
+      if (isStaticMode) {
+        const go = confirm('⚡ No GitHub Pages, a varredura completa da OLX é executada pelo robô no GitHub Actions.\n\nDeseja abrir a página do GitHub Actions para iniciar a varredura agora?');
+        if (go) {
+          window.open('https://github.com/thiconfig-glitch/compraskiller/actions', '_blank');
+        }
+        return;
+      }
+
       btnCheckAll.classList.add('loading');
       btnCheckAll.disabled = true;
       showToast('⚡ Iniciando varredura geral na OLX BH...', 'info');
@@ -584,6 +805,43 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
       btnLiveSearch.disabled = true;
       btnLiveSearch.textContent = 'Buscando...';
+
+      if (isStaticMode) {
+        try {
+          const db = await getStaticDatabase();
+          const qLower = query.toLowerCase();
+          const matched = (db.items || []).filter(i => 
+            (i.title && i.title.toLowerCase().includes(qLower)) ||
+            (i.trackerName && i.trackerName.toLowerCase().includes(qLower))
+          );
+          const olxUrl = `https://www.olx.com.br/estado-mg/belo-horizonte-e-regiao?q=${encodeURIComponent(query)}`;
+
+          if (searchResultsSummary && searchSummaryText) {
+            searchResultsSummary.style.display = 'flex';
+            searchSummaryText.innerHTML = `${matched.length} anúncio(s) no banco local para "${escapeHtml(query)}" • <a href="${olxUrl}" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; text-decoration: underline; font-weight: 600;">Buscar ao vivo na OLX BH ↗</a>`;
+          }
+
+          if (btnConvertSearchTracker) {
+            btnConvertSearchTracker.onclick = () => {
+              openTrackerModal({
+                name: query.toUpperCase(),
+                query: query,
+                minPrice: minPrice,
+                maxPrice: maxPrice,
+                negativeKeywords: negatives
+              });
+            };
+          }
+
+          renderAdCards(searchResultsContainer, matched, `Nenhum anúncio salvo no histórico para "${query}". Utilize o link acima para consultar ao vivo na OLX BH.`);
+        } catch (e) {
+          showToast('Erro na pesquisa local.', 'error');
+        } finally {
+          btnLiveSearch.disabled = false;
+          btnLiveSearch.textContent = 'Buscar';
+        }
+        return;
+      }
 
       try {
         const params = new URLSearchParams();
@@ -688,6 +946,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const btnSave = document.getElementById('btn-save-tracker');
       btnSave.disabled = true;
       btnSave.textContent = 'Salvando...';
+
+      if (isStaticMode) {
+        alert('💡 No modo GitHub Pages, seus rastreadores ativos ficam gravados no arquivo data/database.json do repositório no GitHub.\n\nPara adicionar novos rastreadores fixos, basta editar o database.json no GitHub ou cadastrar rodando localmente no seu PC e fazer git push.');
+        btnSave.disabled = false;
+        btnSave.textContent = 'Salvar e Rastrear';
+        closeTrackerModal();
+        return;
+      }
 
       try {
         const url = id ? `/api/trackers/${id}` : '/api/trackers';
