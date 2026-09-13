@@ -11,11 +11,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-11T16:51:57.452Z",
-      "lastChecked": "2026-09-13T02:02:32.268Z",
-      "adsCount": 55,
-      "lowestPrice": 850,
-      "averagePrice": 1783,
-      "opportunitiesCount": 15
+      "lastChecked": "2026-09-13T02:03:07.452Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     }
   ],
   "items": [
@@ -2003,6 +2003,6 @@
     "autoCheckEnabled": true,
     "notifyOpportunities": true
   },
-  "lastUpdate": "2026-09-13T02:02:33.781Z",
-  "lastUpdateFormatted": "12/09/2026, 23:02"
+  "lastUpdate": "2026-09-13T02:03:08.956Z",
+  "lastUpdateFormatted": "12/09/2026, 23:03"
 }
