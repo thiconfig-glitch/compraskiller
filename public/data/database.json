@@ -11,7 +11,7 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:18:59.714Z",
+      "lastChecked": "2026-09-13T02:19:53.495Z",
       "adsCount": 0,
       "lowestPrice": null,
       "averagePrice": null,
@@ -28,11 +28,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:19:03.323Z",
-      "adsCount": 45,
-      "lowestPrice": 3200,
-      "averagePrice": 4741,
-      "opportunitiesCount": 2
+      "lastChecked": "2026-09-13T02:19:55.005Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801155_6oqke",
@@ -45,11 +45,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:19:06.661Z",
-      "adsCount": 57,
-      "lowestPrice": 3200,
-      "averagePrice": 5347,
-      "opportunitiesCount": 19
+      "lastChecked": "2026-09-13T02:19:56.513Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801155_zpx6s",
@@ -62,7 +62,7 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T02:19:08.739Z",
+      "lastChecked": "2026-09-13T02:19:58.060Z",
       "adsCount": 0,
       "lowestPrice": null,
       "averagePrice": null,
@@ -79,11 +79,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T02:19:11.788Z",
-      "adsCount": 57,
-      "lowestPrice": 3699,
-      "averagePrice": 5389,
-      "opportunitiesCount": 25
+      "lastChecked": "2026-09-13T02:19:59.569Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801156_mxm22",
@@ -96,11 +96,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T02:19:14.967Z",
-      "adsCount": 50,
-      "lowestPrice": 3200,
-      "averagePrice": 5960,
-      "opportunitiesCount": 2
+      "lastChecked": "2026-09-13T02:20:01.078Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     }
   ],
   "items": [
@@ -10027,6 +10027,6 @@
     "autoCheckEnabled": true,
     "notifyOpportunities": true
   },
-  "lastUpdate": "2026-09-13T02:19:16.475Z",
-  "lastUpdateFormatted": "12/09/2026, 23:19"
+  "lastUpdate": "2026-09-13T02:20:02.582Z",
+  "lastUpdateFormatted": "12/09/2026, 23:20"
 }
