@@ -444,6 +444,18 @@ function syncTrackersFromConfig() {
       }
     }
 
+    // Remove rastreadores que foram excluídos do rastreadores.json
+    const activeQueries = new Set(list.map(i => (i.query || '').trim().toLowerCase()).filter(Boolean));
+    const removedTrackerIds = db.trackers
+      .filter(t => !activeQueries.has(t.query.trim().toLowerCase()))
+      .map(t => t.id);
+
+    if (removedTrackerIds.length > 0) {
+      db.trackers = db.trackers.filter(t => !removedTrackerIds.includes(t.id));
+      db.items = db.items.filter(i => !removedTrackerIds.includes(i.trackerId));
+      modified = true;
+    }
+
     if (modified) {
       saveDatabase(db);
     }
