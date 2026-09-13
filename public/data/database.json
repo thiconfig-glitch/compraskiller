@@ -11,10 +11,10 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:33:29.414Z",
-      "adsCount": 16,
-      "lowestPrice": 3000,
-      "averagePrice": 3716,
+      "lastChecked": "2026-09-13T11:34:25.385Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
       "opportunitiesCount": 0
     },
     {
@@ -28,10 +28,10 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:33:33.082Z",
-      "adsCount": 43,
-      "lowestPrice": 3200,
-      "averagePrice": 4718,
+      "lastChecked": "2026-09-13T11:34:26.896Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
       "opportunitiesCount": 0
     },
     {
@@ -45,11 +45,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:33:36.655Z",
-      "adsCount": 57,
-      "lowestPrice": 2990,
-      "averagePrice": 5178,
-      "opportunitiesCount": 5
+      "lastChecked": "2026-09-13T11:34:28.406Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801155_zpx6s",
@@ -62,11 +62,11 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.155Z",
-      "lastChecked": "2026-09-13T11:33:40.037Z",
-      "adsCount": 56,
-      "lowestPrice": 2990,
-      "averagePrice": 4788,
-      "opportunitiesCount": 4
+      "lastChecked": "2026-09-13T11:34:29.915Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
+      "opportunitiesCount": 0
     },
     {
       "id": "trk_1789265801156_fpx66",
@@ -79,7 +79,7 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T11:33:42.194Z",
+      "lastChecked": "2026-09-13T11:34:31.426Z",
       "adsCount": 0,
       "lowestPrice": null,
       "averagePrice": null,
@@ -96,10 +96,10 @@
       "municipality": "",
       "enabled": true,
       "createdAt": "2026-09-13T02:16:41.156Z",
-      "lastChecked": "2026-09-13T11:33:45.774Z",
-      "adsCount": 50,
-      "lowestPrice": 3200,
-      "averagePrice": 5957,
+      "lastChecked": "2026-09-13T11:34:32.936Z",
+      "adsCount": 0,
+      "lowestPrice": null,
+      "averagePrice": null,
       "opportunitiesCount": 0
     }
   ],
@@ -13919,6 +13919,6 @@
     "autoCheckEnabled": true,
     "notifyOpportunities": true
   },
-  "lastUpdate": "2026-09-13T11:33:47.295Z",
-  "lastUpdateFormatted": "13/09/2026, 08:33"
+  "lastUpdate": "2026-09-13T11:34:34.443Z",
+  "lastUpdateFormatted": "13/09/2026, 08:34"
 }
