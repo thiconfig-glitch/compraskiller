@@ -5,7 +5,7 @@
     "targetPrice": 3000,
     "minPrice": 1800,
     "maxPrice": 4200,
-    "negativeKeywords": "defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, capa, desktop",
+    "negativeKeywords": "1650, 165o, 1660, 2050, 2060, gtx, mx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, capa",
     "municipality": "",
     "enabled": true
   },
@@ -15,7 +15,7 @@
     "targetPrice": 3800,
     "minPrice": 2400,
     "maxPrice": 5500,
-    "negativeKeywords": "defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, desktop, pc gamer de mesa",
+    "negativeKeywords": "1650, 165o, 1660, 2050, 2060, gtx, mx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, capa",
     "municipality": "",
     "enabled": true
   },
@@ -25,7 +25,7 @@
     "targetPrice": 4800,
     "minPrice": 3000,
     "maxPrice": 7500,
-    "negativeKeywords": "defeito, quebrado, peças, sucata, tela trincada, desktop, pc mesa, gabinete",
+    "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, cooler, carcaça",
     "municipality": "",
     "enabled": true
   },
@@ -35,7 +35,7 @@
     "targetPrice": 4200,
     "minPrice": 2800,
     "maxPrice": 6000,
-    "negativeKeywords": "defeito, quebrado, peças, sucata, apenas fonte, desktop, pc gamer",
+    "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas fonte, cooler, carcaça",
     "municipality": "",
     "enabled": true
   },
@@ -45,7 +45,7 @@
     "targetPrice": 5200,
     "minPrice": 3500,
     "maxPrice": 7500,
-    "negativeKeywords": "defeito, quebrado, peças, sucata, apenas fonte, desktop, pc gamer de mesa",
+    "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas fonte, cooler, carcaça",
     "municipality": "",
     "enabled": true
   },
@@ -55,7 +55,7 @@
     "targetPrice": 3600,
     "minPrice": 2000,
     "maxPrice": 8500,
-    "negativeKeywords": "gtx, 1650, 1050, 1060, 2060, defeito, quebrado, peças, sucata, desktop, pc gamer de mesa, apenas placa",
+    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça",
     "municipality": "",
     "enabled": true
   }

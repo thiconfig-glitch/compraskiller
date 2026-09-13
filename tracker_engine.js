@@ -145,6 +145,16 @@ async function runTrackerCheck(trackerId) {
   const tracker = db.trackers.find(t => t.id === trackerId);
   if (!tracker) throw new Error('Rastreador não encontrado.');
 
+  // Limpa do banco itens que violam as palavras negativas atuais
+  if (tracker.negativeKeywords) {
+    const negatives = tracker.negativeKeywords.split(',').map(k => k.trim().toLowerCase()).filter(Boolean);
+    db.items = db.items.filter(item => {
+      if (item.trackerId !== tracker.id) return true;
+      const titleLower = (item.title || '').toLowerCase();
+      return !negatives.some(neg => titleLower.includes(neg));
+    });
+  }
+
   const ads = await searchOlxBh(tracker.query, {
     minPrice: tracker.minPrice,
     maxPrice: tracker.maxPrice,
