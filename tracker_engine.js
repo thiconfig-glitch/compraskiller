@@ -471,7 +471,19 @@ function syncTrackersFromConfig() {
         }
         if (item.minPrice !== undefined && existing.minPrice !== (item.minPrice ? Number(item.minPrice) : null)) { existing.minPrice = item.minPrice ? Number(item.minPrice) : null; modified = true; }
         if (item.maxPrice !== undefined && existing.maxPrice !== (item.maxPrice ? Number(item.maxPrice) : null)) { existing.maxPrice = item.maxPrice ? Number(item.maxPrice) : null; modified = true; }
-        if (item.negativeKeywords !== undefined && existing.negativeKeywords !== item.negativeKeywords) { existing.negativeKeywords = item.negativeKeywords; modified = true; }
+        if (item.negativeKeywords !== undefined && existing.negativeKeywords !== item.negativeKeywords) { 
+          existing.negativeKeywords = item.negativeKeywords; 
+          modified = true; 
+          if (existing.negativeKeywords) {
+            const negatives = existing.negativeKeywords.split(',').map(k => k.trim().toLowerCase()).filter(Boolean);
+            db.items = db.items.filter(it => {
+              if (it.trackerId !== existing.id) return true;
+              const titleLower = (it.title || '').toLowerCase();
+              return !negatives.some(neg => titleLower.includes(neg));
+            });
+            existing.adsCount = db.items.filter(it => it.trackerId === existing.id).length;
+          }
+        }
         if (item.enabled !== undefined && existing.enabled !== (item.enabled !== false)) { existing.enabled = item.enabled !== false; modified = true; }
       }
     }

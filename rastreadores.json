@@ -5,7 +5,7 @@
     "targetPrice": 2300,
     "minPrice": 1800,
     "maxPrice": 8500,
-    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça",
+    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, mx, rx, rtx 1650, rtx 165o, rtx 2050, rtx 2060, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça, tela trincada",
     "municipality": "",
     "enabled": true
   },
@@ -15,7 +15,7 @@
     "targetPrice": 2300,
     "minPrice": 1800,
     "maxPrice": 4200,
-    "negativeKeywords": "1650, 165o, 1660, 2050, 2060, gtx, mx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, capa",
+    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, mx, rx, rtx 1650, rtx 165o, rtx 2050, rtx 2060, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça, tela trincada",
     "municipality": "",
     "enabled": true
   },
@@ -25,7 +25,7 @@
     "targetPrice": 2800,
     "minPrice": 2000,
     "maxPrice": 5500,
-    "negativeKeywords": "1650, 165o, 1660, 2050, 2060, gtx, mx, rx, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, apenas fonte, cooler, carcaça, capa",
+    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, mx, rx, rtx 1650, rtx 165o, rtx 2050, rtx 2060, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça, tela trincada",
     "municipality": "",
     "enabled": true
   },
@@ -35,7 +35,7 @@
     "targetPrice": 3500,
     "minPrice": 2200,
     "maxPrice": 7500,
-    "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, tela trincada, cooler, carcaça",
+    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, mx, rx, rtx 1650, rtx 165o, rtx 2050, rtx 2060, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça, tela trincada",
     "municipality": "",
     "enabled": true
   },
@@ -45,7 +45,7 @@
     "targetPrice": 3000,
     "minPrice": 2200,
     "maxPrice": 6000,
-    "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas fonte, cooler, carcaça",
+    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, mx, rx, rtx 1650, rtx 165o, rtx 2050, rtx 2060, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça, tela trincada",
     "municipality": "",
     "enabled": true
   },
@@ -55,7 +55,7 @@
     "targetPrice": 3600,
     "minPrice": 2500,
     "maxPrice": 7500,
-    "negativeKeywords": "pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas fonte, cooler, carcaça",
+    "negativeKeywords": "1650, 165o, 1660, 1050, 1060, 2050, 2060, gtx, mx, rx, rtx 1650, rtx 165o, rtx 2050, rtx 2060, pc gamer, computador, desktop, gabinete, placa de vídeo, placa de video, apenas cpu, mesa, defeito, quebrado, peças, sucata, apenas placa, apenas fonte, cooler, carcaça, tela trincada",
     "municipality": "",
     "enabled": true
   }

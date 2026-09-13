@@ -171,6 +171,20 @@ async function searchOlxBh(query, options = {}) {
       });
     }
 
+    // Filtro anti-spam específico para buscas de notebooks RTX (barra placas antigas e GTX anunciadas como RTX)
+    if (/rtx/i.test(query)) {
+      const fakeRtxRegex = /\b(1650|165o|1660|1050|1060|2050|2060|gtx|mx\d+|rx\s*\d+)\b|rtx\s*165/i;
+      ads = ads.filter(ad => !fakeRtxRegex.test(ad.title));
+    }
+
+    // Se busca por notebook, rejeita categorias de peças soltas / placas de vídeo
+    if (/notebook/i.test(query)) {
+      ads = ads.filter(ad => {
+        const cat = (ad.category || '').toLowerCase();
+        return !cat.includes('peças') && !cat.includes('hardware') && !cat.includes('placa');
+      });
+    }
+
     // 2. Filtrar por preço mínimo e máximo em memória (garantia extra)
     if (options.minPrice && Number(options.minPrice) > 0) {
       ads = ads.filter(ad => ad.price === null || ad.price >= Number(options.minPrice));

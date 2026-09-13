@@ -1,4 +1,4 @@
-const CACHE_NAME = 'radar-olx-v5';
+const CACHE_NAME = 'radar-olx-v6';
 const STATIC_ASSETS = [
   './',
   './index.html',
