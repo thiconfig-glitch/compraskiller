@@ -1,6 +1,6 @@
 {
   "name": "radar-olx-bh",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Radar OLX BH — PWA Mobile Rastreador de Produtos e Preços em Belo Horizonte e Região",
   "main": "server.js",
   "scripts": {
