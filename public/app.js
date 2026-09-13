@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function getStaticDatabase(forceReload = false) {
     if (staticDb && !forceReload) return staticDb;
     try {
-      const res = await fetch('./data/database.json', { cache: 'no-store' });
+      const res = await fetch('./data/database.json?t=' + Date.now(), { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       staticDb = await res.json();
       return staticDb;
@@ -692,10 +692,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (btnScan) {
         btnScan.addEventListener('click', async () => {
           if (isStaticMode) {
-            const go = confirm(`⚡ No GitHub Pages, a varredura é executada pelo robô do GitHub Actions.\n\nDeseja abrir o GitHub Actions para rodar a varredura com 1 clique?`);
-            if (go) {
-              window.open('https://github.com/thiconfig-glitch/compraskiller/actions', '_blank');
-            }
+            triggerCloudScan();
             return;
           }
 
@@ -748,22 +745,71 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ==========================================
-  // VARREDURA GERAL
+  // TOKEN DO GITHUB & DISPARO DIRETO DA PÁGINA
   // ==========================================
-  if (btnCheckAll) {
-    btnCheckAll.addEventListener('click', async () => {
-      if (isStaticMode) {
-        const go = confirm('⚡ No GitHub Pages, a varredura completa da OLX é executada pelo robô no GitHub Actions.\n\nDeseja abrir a página do GitHub Actions para iniciar a varredura agora?');
-        if (go) {
-          window.open('https://github.com/thiconfig-glitch/compraskiller/actions', '_blank');
-        }
+  const tokenModal = document.getElementById('token-modal');
+  const inputGithubToken = document.getElementById('input-github-token');
+  const btnCloseTokenModal = document.getElementById('btn-close-token-modal');
+  const btnCancelTokenModal = document.getElementById('btn-cancel-token-modal');
+  const btnSaveToken = document.getElementById('btn-save-token');
+  const btnOpenTokenConfig = document.getElementById('btn-open-token-config');
+  const btnSyncTrigger = document.getElementById('btn-sync-trigger');
+
+  function openTokenModal() {
+    if (!tokenModal) return;
+    const current = localStorage.getItem('radar_github_token') || '';
+    if (inputGithubToken) inputGithubToken.value = current;
+    tokenModal.style.display = 'flex';
+    if (inputGithubToken) inputGithubToken.focus();
+  }
+
+  function closeTokenModal() {
+    if (tokenModal) tokenModal.style.display = 'none';
+  }
+
+  if (btnCloseTokenModal) btnCloseTokenModal.addEventListener('click', closeTokenModal);
+  if (btnCancelTokenModal) btnCancelTokenModal.addEventListener('click', closeTokenModal);
+  if (tokenModal) {
+    tokenModal.addEventListener('click', (e) => {
+      if (e.target === tokenModal) closeTokenModal();
+    });
+  }
+
+  if (btnOpenTokenConfig) {
+    btnOpenTokenConfig.addEventListener('click', openTokenModal);
+  }
+
+  if (btnSaveToken) {
+    btnSaveToken.addEventListener('click', () => {
+      const val = (inputGithubToken ? inputGithubToken.value : '').trim();
+      if (!val) {
+        localStorage.removeItem('radar_github_token');
+        showToast('Token removido.', 'info');
+        closeTokenModal();
         return;
       }
+      if (!val.startsWith('ghp_') && !val.startsWith('github_pat_')) {
+        if (!confirm('O código colado não parece ser um token padrão do GitHub (geralmente começa com ghp_ ou github_pat_). Deseja salvar mesmo assim?')) {
+          return;
+        }
+      }
+      localStorage.setItem('radar_github_token', val);
+      showToast('Chave salva! Agora o botão atualiza o robô direto por aqui.', 'success');
+      closeTokenModal();
+      triggerCloudScan();
+    });
+  }
 
+  let isScanningCloud = false;
+
+  async function triggerCloudScan() {
+    if (isScanningCloud) return;
+
+    if (!isStaticMode) {
+      // Modo servidor local no PC
       btnCheckAll.classList.add('loading');
       btnCheckAll.disabled = true;
       showToast('⚡ Iniciando varredura geral na OLX BH...', 'info');
-
       try {
         const res = await fetch('/api/trackers/check-all', { method: 'POST' });
         const json = await res.json();
@@ -781,7 +827,119 @@ document.addEventListener('DOMContentLoaded', () => {
         btnCheckAll.classList.remove('loading');
         btnCheckAll.disabled = false;
       }
-    });
+      return;
+    }
+
+    const token = localStorage.getItem('radar_github_token');
+    if (!token) {
+      openTokenModal();
+      return;
+    }
+
+    isScanningCloud = true;
+    if (btnCheckAll) {
+      btnCheckAll.classList.add('loading');
+      btnCheckAll.disabled = true;
+      btnCheckAll.innerHTML = '<span class="scan-icon">⏳</span><span class="scan-label">Varrendo...</span>';
+    }
+    if (btnSyncTrigger) {
+      btnSyncTrigger.disabled = true;
+      btnSyncTrigger.innerHTML = '<span>⏳</span> Varrendo...';
+    }
+    if (syncBanner) {
+      const syncDot = syncBanner.querySelector('.sync-dot');
+      if (syncDot) syncDot.classList.add('updating');
+      if (syncText) syncText.textContent = '⚡ Acionando robô do Radar no GitHub...';
+    }
+
+    showToast('🚀 Disparando varredura da OLX BH na nuvem...', 'info');
+
+    try {
+      const res = await fetch('https://api.github.com/repos/thiconfig-glitch/compraskiller/actions/workflows/radar_update.yml/dispatches', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/vnd.github+json',
+          'Authorization': `Bearer ${token.trim()}`,
+          'X-GitHub-Api-Version': '2022-11-28'
+        },
+        body: JSON.stringify({ ref: 'main' })
+      });
+
+      if (!res.ok) {
+        if (res.status === 401 || res.status === 403) {
+          localStorage.removeItem('radar_github_token');
+          throw new Error('Token do GitHub expirado ou inválido. Por favor, reconfigure.');
+        }
+        throw new Error(`Erro ao disparar GitHub Actions (HTTP ${res.status}).`);
+      }
+
+      showToast('🛰️ Robô varrendo notebooks com RTX em BH! Aguarde ~35s.', 'info');
+      
+      let seconds = 0;
+      const interval = setInterval(async () => {
+        seconds += 5;
+        if (syncText) syncText.textContent = `🛰️ Varrendo anúncios na OLX BH... (${seconds}s)`;
+        if (btnSyncTrigger) btnSyncTrigger.innerHTML = `<span>⏳</span> ${seconds}s`;
+
+        if (seconds >= 35) {
+          try {
+            const reloaded = await getStaticDatabase(true);
+            if (reloaded) {
+              clearInterval(interval);
+              isScanningCloud = false;
+              showToast('✅ Varredura concluída! Novos notebooks carregados.', 'success');
+              loadStats();
+              loadFeed();
+              loadTrackers();
+              resetScanButtons();
+              return;
+            }
+          } catch(e) {}
+        }
+
+        if (seconds >= 60) {
+          clearInterval(interval);
+          isScanningCloud = false;
+          showToast('Varredura concluída na nuvem! Atualizando...', 'info');
+          loadStats();
+          loadFeed();
+          loadTrackers();
+          resetScanButtons();
+        }
+      }, 5000);
+
+    } catch (err) {
+      isScanningCloud = false;
+      showToast(err.message, 'error');
+      resetScanButtons();
+      if (err.message.includes('Token')) {
+        openTokenModal();
+      }
+    }
+  }
+
+  function resetScanButtons() {
+    if (btnCheckAll) {
+      btnCheckAll.classList.remove('loading');
+      btnCheckAll.disabled = false;
+      btnCheckAll.innerHTML = '<span class="scan-icon">⚡</span><span class="scan-label">Verificar Tudo</span>';
+    }
+    if (btnSyncTrigger) {
+      btnSyncTrigger.disabled = false;
+      btnSyncTrigger.innerHTML = '<span>⚡</span> Atualizar Agora';
+    }
+    if (syncBanner) {
+      const syncDot = syncBanner.querySelector('.sync-dot');
+      if (syncDot) syncDot.classList.remove('updating');
+    }
+  }
+
+  if (btnCheckAll) {
+    btnCheckAll.addEventListener('click', triggerCloudScan);
+  }
+
+  if (btnSyncTrigger) {
+    btnSyncTrigger.addEventListener('click', triggerCloudScan);
   }
 
   // ==========================================

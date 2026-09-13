@@ -80,9 +80,14 @@
         <span class="sync-dot"></span>
         <span class="sync-text" id="sync-text">Sincronizado via GitHub Actions</span>
       </div>
-      <a href="https://github.com/thiconfig-glitch/compraskiller/actions" target="_blank" rel="noopener noreferrer" class="btn-sync-trigger" id="btn-sync-trigger" title="Disparar nova varredura no GitHub">
-        <span>⚡</span> Atualizar no GitHub
-      </a>
+      <div class="sync-actions-wrap" style="display: flex; align-items: center; gap: 6px;">
+        <button type="button" class="btn-sync-trigger" id="btn-sync-trigger" title="Disparar nova varredura da OLX direto daqui">
+          <span>⚡</span> Atualizar Agora
+        </button>
+        <button type="button" id="btn-open-token-config" title="Configurar Token do GitHub para 1 clique" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 6px 9px; cursor: pointer; color: #a5b4fc; font-size: 13px; display: inline-flex; align-items: center;">
+          ⚙️
+        </button>
+      </div>
     </div>
 
     <!-- ========================================== -->
@@ -308,6 +313,38 @@
       <span class="nav-badge" id="badge-favorites" style="display: none;">0</span>
     </button>
   </nav>
+
+  <!-- Modal de Configuração do Token GitHub (1 Toque) -->
+  <div class="modal-overlay" id="token-modal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">⚡ Atualizar em 1 Toque</h3>
+        <button type="button" class="btn-close-modal" id="btn-close-token-modal">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 16px;">
+        <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5;">
+          Para você poder apertar <strong>"Atualizar Agora"</strong> ou <strong>"Verificar Tudo"</strong> direto daqui sem nunca mais precisar entrar na tela do GitHub, salve seu Token de Acesso (fica guardado 100% privado na memória do seu celular):
+        </p>
+        <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 8px; padding: 12px; margin-bottom: 14px;">
+          <p style="font-size: 12px; color: #c7d2fe; margin-bottom: 8px; font-weight: 600;">Como gerar seu token (em 30 segundos):</p>
+          <ol style="font-size: 11.5px; color: var(--text-muted); margin: 0; padding-left: 18px; line-height: 1.6;">
+            <li><a href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=RadarOLX" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; text-decoration: underline; font-weight: 700;">Toque aqui para abrir a página de Tokens do GitHub ↗</a></li>
+            <li>Em <em>Expiration</em>, escolha <strong>No expiration</strong> (ou 90 days).</li>
+            <li>Role até o final da página e toque no botão verde <strong>"Generate token"</strong>.</li>
+            <li>Copie o código gerado (começa com <code>ghp_...</code>) e cole abaixo:</li>
+          </ol>
+        </div>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label for="input-github-token" style="font-size: 12px; font-weight: 600; color: #fff; margin-bottom: 6px; display: block;">Seu Token do GitHub:</label>
+          <input type="password" id="input-github-token" placeholder="Cole aqui seu ghp_..." style="width: 100%; padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.2); color: #fff; font-size: 14px; box-sizing: border-box;">
+        </div>
+        <div style="display: flex; gap: 8px; justify-content: flex-end;">
+          <button type="button" class="btn-cancel-modal" id="btn-cancel-token-modal">Cancelar</button>
+          <button type="button" class="btn-primary-action" id="btn-save-token">Salvar e Ativar 1 Toque</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Toast de Notificação -->
   <div class="toast-container" id="toast-container"></div>
