@@ -1,0 +1,32 @@
+[
+  {
+    "name": "RTX 3060",
+    "query": "rtx 3060",
+    "targetPrice": 1600,
+    "minPrice": 800,
+    "maxPrice": 2500,
+    "negativeKeywords": "defeito, quebrado, ventilador apenas, peças",
+    "municipality": "",
+    "enabled": true
+  },
+  {
+    "name": "iPhone 13",
+    "query": "iphone 13",
+    "targetPrice": 2500,
+    "minPrice": 1600,
+    "maxPrice": 3400,
+    "negativeKeywords": "icloud, tela trincada, defeito, peças, quebrado, bloqueado, réplica, sucata",
+    "municipality": "",
+    "enabled": true
+  },
+  {
+    "name": "PlayStation 5",
+    "query": "ps5",
+    "targetPrice": 2800,
+    "minPrice": 2000,
+    "maxPrice": 3800,
+    "negativeKeywords": "defeito, banido, controle apenas, trava, carcaça, peças",
+    "municipality": "",
+    "enabled": true
+  }
+]

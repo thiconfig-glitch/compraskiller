@@ -93,6 +93,7 @@ function addTracker(trackerData) {
 
   db.trackers.push(newTracker);
   saveDatabase(db);
+  exportTrackersToConfig();
   return newTracker;
 }
 
@@ -120,6 +121,7 @@ function updateTracker(id, trackerData) {
 
   db.trackers[index] = updated;
   saveDatabase(db);
+  exportTrackersToConfig();
   return updated;
 }
 
@@ -131,6 +133,7 @@ function deleteTracker(id) {
   db.trackers = db.trackers.filter(t => t.id !== id);
   db.items = db.items.filter(i => i.trackerId !== id);
   saveDatabase(db);
+  exportTrackersToConfig();
   return true;
 }
 
@@ -249,6 +252,7 @@ async function runTrackerCheck(trackerId) {
  * Executa a varredura de todos os rastreadores ativos sequencialmente
  */
 async function runAllTrackersCheck() {
+  syncTrackersFromConfig();
   const db = getDatabase();
   const enabledTrackers = db.trackers.filter(t => t.enabled);
   const results = [];
@@ -388,6 +392,89 @@ function getStats() {
   };
 }
 
+/**
+ * Sincroniza rastreadores a partir de rastreadores.json
+ */
+function syncTrackersFromConfig() {
+  const configPath = path.join(__dirname, 'rastreadores.json');
+  if (!fs.existsSync(configPath)) {
+    exportTrackersToConfig();
+    return;
+  }
+  try {
+    const raw = fs.readFileSync(configPath, 'utf-8');
+    const list = JSON.parse(raw);
+    if (!Array.isArray(list)) return;
+
+    const db = getDatabase();
+    let modified = false;
+
+    for (const item of list) {
+      if (!item.query || !item.query.trim()) continue;
+      const normalizedQuery = item.query.trim().toLowerCase();
+      let existing = db.trackers.find(t => t.query && t.query.trim().toLowerCase() === normalizedQuery);
+
+      if (!existing) {
+        const newTracker = {
+          id: 'trk_' + Date.now() + '_' + Math.random().toString(36).substring(2, 7),
+          name: (item.name || item.query).trim(),
+          query: item.query.trim(),
+          targetPrice: item.targetPrice ? Number(item.targetPrice) : null,
+          minPrice: item.minPrice ? Number(item.minPrice) : null,
+          maxPrice: item.maxPrice ? Number(item.maxPrice) : null,
+          negativeKeywords: item.negativeKeywords || '',
+          municipality: item.municipality || '',
+          enabled: item.enabled !== false,
+          createdAt: new Date().toISOString(),
+          lastChecked: null,
+          adsCount: 0,
+          lowestPrice: null,
+          averagePrice: null,
+          opportunitiesCount: 0
+        };
+        db.trackers.push(newTracker);
+        modified = true;
+      } else {
+        if (item.name && existing.name !== item.name) { existing.name = item.name; modified = true; }
+        if (item.targetPrice !== undefined && existing.targetPrice !== (item.targetPrice ? Number(item.targetPrice) : null)) { existing.targetPrice = item.targetPrice ? Number(item.targetPrice) : null; modified = true; }
+        if (item.minPrice !== undefined && existing.minPrice !== (item.minPrice ? Number(item.minPrice) : null)) { existing.minPrice = item.minPrice ? Number(item.minPrice) : null; modified = true; }
+        if (item.maxPrice !== undefined && existing.maxPrice !== (item.maxPrice ? Number(item.maxPrice) : null)) { existing.maxPrice = item.maxPrice ? Number(item.maxPrice) : null; modified = true; }
+        if (item.negativeKeywords !== undefined && existing.negativeKeywords !== item.negativeKeywords) { existing.negativeKeywords = item.negativeKeywords; modified = true; }
+        if (item.enabled !== undefined && existing.enabled !== (item.enabled !== false)) { existing.enabled = item.enabled !== false; modified = true; }
+      }
+    }
+
+    if (modified) {
+      saveDatabase(db);
+    }
+  } catch (err) {
+    console.error('Erro ao sincronizar rastreadores.json:', err.message);
+  }
+}
+
+/**
+ * Exporta os rastreadores do banco para rastreadores.json
+ */
+function exportTrackersToConfig() {
+  const configPath = path.join(__dirname, 'rastreadores.json');
+  try {
+    const db = getDatabase();
+    const cleanList = db.trackers.map(t => ({
+      name: t.name,
+      query: t.query,
+      targetPrice: t.targetPrice,
+      minPrice: t.minPrice,
+      maxPrice: t.maxPrice,
+      negativeKeywords: t.negativeKeywords,
+      municipality: t.municipality || '',
+      enabled: t.enabled !== false
+    }));
+    fs.writeFileSync(configPath, JSON.stringify(cleanList, null, 2), 'utf-8');
+  } catch (err) {
+    console.error('Erro ao exportar rastreadores.json:', err.message);
+  }
+}
+
 module.exports = {
   getDatabase,
   saveDatabase,
@@ -400,5 +487,8 @@ module.exports = {
   getFeed,
   toggleFavorite,
   getFavorites,
-  getStats
+  getStats,
+  syncTrackersFromConfig,
+  exportTrackersToConfig
 };
+

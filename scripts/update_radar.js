@@ -19,6 +19,21 @@ async function main() {
     fs.mkdirSync(publicDataDir, { recursive: true });
   }
 
+  // Se veio input de novo produto do GitHub Actions, cadastra antes de varrer
+  const newQuery = process.env.NEW_PRODUCT_QUERY;
+  if (newQuery && newQuery.trim()) {
+    const { addTracker } = require('../tracker_engine');
+    console.log(`➕ Novo produto recebido via GitHub Actions: "${newQuery.trim()}"`);
+    addTracker({
+      name: (process.env.NEW_PRODUCT_NAME || newQuery).trim(),
+      query: newQuery.trim(),
+      targetPrice: process.env.NEW_PRODUCT_TARGET ? Number(process.env.NEW_PRODUCT_TARGET) : null,
+      minPrice: process.env.NEW_PRODUCT_MIN ? Number(process.env.NEW_PRODUCT_MIN) : null,
+      maxPrice: process.env.NEW_PRODUCT_MAX ? Number(process.env.NEW_PRODUCT_MAX) : null,
+      negativeKeywords: process.env.NEW_PRODUCT_NEGATIVES || ''
+    });
+  }
+
   // Executa a varredura em todos os rastreadores ativos
   const results = await runAllTrackersCheck();
   console.log(`\n✅ Varredura concluída para ${results.length} rastreadores.`);
